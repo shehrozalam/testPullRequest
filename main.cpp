@@ -22,8 +22,8 @@ int main() {
     int * newIntro;
     delete newIntro;
 
-    int* newPtr;
-    delete newPtr;
+    int* shehroz;
+    delete shehroz;
 
     //add comment
 
