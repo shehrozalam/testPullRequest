@@ -1,0 +1,53 @@
+Native Compiler and extra args: ./ 
+Working directory: /home/ala/CLionProjects/untitled
+
+find_compiler: in comp_type = gcc sub type =  with generics. comp_name = gcc
+find_compiler: out 1: GNU C compiler
+
+find_compiler: in comp_type = g++ sub type =  with generics. comp_name = 
+find_compiler: out 1: GNU C++ Compiler
+
+find_compiler: in comp_type = g++cc sub type =  with generics. comp_name = 
+find_compiler: out 1: GNU C++ Compiler
+
+find_compiler: in comp_type =  sub type =  with generics. comp_name = 
+find_compiler: out NULL
+
+find_compiler: in comp_type = g++cc sub type =  with generics. comp_name = 
+find_compiler: out 1: GNU C++ Compiler
+
+find_compiler: in comp_type =  sub type =  with generics. comp_name = 
+find_compiler: out NULL
+
+find_compiler: in comp_type = g++ sub type =  with generics. comp_name = 
+find_compiler: out 1: GNU C++ Compiler
+
+find_compiler: in comp_type = g++cc sub type =  with generics. comp_name = 
+find_compiler: out 1: GNU C++ Compiler
+
+find_compiler: in comp_type =  sub type =  with generics. comp_name = 
+find_compiler: out NULL
+
+find_compiler: in comp_type = g++ sub type =  with generics. comp_name = 
+find_compiler: out 1: GNU C++ Compiler
+
+find_compiler: in comp_type = g++cc sub type =  with generics. comp_name = 
+find_compiler: out 1: GNU C++ Compiler
+
+find_compiler: in comp_type =  sub type =  with generics. comp_name = 
+find_compiler: out NULL
+
+find_compiler: in comp_type = g++cc sub type =  with generics. comp_name = 
+find_compiler: out 1: GNU C++ Compiler
+
+find_compiler: in comp_type =  sub type =  with generics. comp_name = 
+find_compiler: out NULL
+
+find_compiler: in comp_type = g++cc sub type =  with generics. comp_name = 
+find_compiler: out 1: GNU C++ Compiler
+
+find_compiler: in comp_type =  sub type =  with generics. comp_name = 
+find_compiler: out NULL
+
+find_compiler: in comp_type =  sub type =  with generics. comp_name = 
+find_compiler: out NULL
