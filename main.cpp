@@ -25,6 +25,8 @@ int main() {
     int* newPtr;
     delete newPtr;
 
+    //add comment
+
     int* assignThis = someMethod();
     return 0;
 }
