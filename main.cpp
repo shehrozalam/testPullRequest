@@ -23,6 +23,7 @@ int main() {
     delete newIntro;
 
     int* newPtr;
+    delete newPtr;
 
     int* assignThis = someMethod();
     return 0;
