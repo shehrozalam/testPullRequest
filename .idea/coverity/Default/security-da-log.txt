@@ -1,0 +1,4 @@
+/home/ala/cov-analysis-linux64-2020.06/bin/cov-security-da --dir /home/ala/CLionProjects/untitled/.idea/coverity/Default 
+cov-security-da version 2020.06 on Linux 5.3.0-28-generic x86_64
+Internal version numbers: 6fbf2d48ad p-trail-push-1389
+

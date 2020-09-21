@@ -1,0 +1,2 @@
+Analysis Result: success
+Analysis finished at Thu Sep 17 09:19:22 CEST 2020

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>/home/ala/cov-analysis-linux64-2020.06/bin/cov-build --no-banner --log-base-name autocapture --dir /home/ala/CLionProjects/untitled/.idea/coverity/Default --config /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/coverity_config.xml --no-command --xxx-opportunistic --fs-capture-list /tmp/cov-ala/f2f3617a57654fdd4e0225d885fe17cc/fs-capture-list.txt</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>ala-VirtualBox</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>linux64</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Linux 5.3.0-28-generic x86_64</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>2020.06 (build 6fbf2d48ad p-trail-push-1389)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>ala</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>/home/ala/cov-analysis-linux64-2020.06/bin</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>/home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>/home/ala/CLionProjects/untitled/.idea/coverity/Default</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>/home/ala/CLionProjects/untitled/.idea/coverity/Default/output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>/home/ala/CLionProjects/untitled/.idea/coverity/Default/emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value></value>
+    </metric>
+</metrics>
+</coverity>

@@ -1,0 +1,18 @@
+timer                                      ms      calls
+--------------------------------------------------------
+cov-commit-defects                       6446          1
+  authenticate_rcp1_style                 131          1
+  set_working_domain                        3          1
+  send_analysis_and_build_metrics          48          1
+  send_defects_v3                         292          1
+  receive_preview_report_v2                26          1
+  (left over)                            5946
+
+activity                                   ms      calls
+--------------------------------------------------------
+cov-commit-defects                       6446          1
+authenticate_rcp1_style                   131          1
+set_working_domain                          3          1
+send_analysis_and_build_metrics            48          1
+send_defects_v3                           292          1
+receive_preview_report_v2                  26          1

@@ -1,0 +1,23 @@
+{"users": [
+  {
+    "domain": "",
+    "disabled": false,
+    "given_name": "",
+    "family_name": "",
+    "username": "Unassigned"
+  },
+  {
+    "domain": "",
+    "disabled": false,
+    "given_name": "Reporter",
+    "family_name": "User",
+    "username": "reporter"
+  },
+  {
+    "domain": "",
+    "disabled": false,
+    "given_name": "Admin",
+    "family_name": "User",
+    "username": "admin"
+  }
+]}

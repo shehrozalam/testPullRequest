@@ -1,0 +1,13 @@
+{
+  "covAnalyzeArgs" : [
+    "--fb-include",
+    "coverity-default",
+    "--aggressiveness-level",
+    "high",
+    "--all",
+    "--concurrency",
+    "--security"
+  ],
+  "fileOptions" : [],
+  "fileCheckerOptions" : []
+}

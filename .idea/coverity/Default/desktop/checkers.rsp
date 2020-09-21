@@ -1,0 +1,6 @@
+--all
+--concurrency
+--security
+--webapp-security
+--android-security
+--enable-parse-warnings

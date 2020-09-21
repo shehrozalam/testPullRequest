@@ -1,0 +1,1 @@
+/home/ala/cov-analysis-linux64-2020.06/bin

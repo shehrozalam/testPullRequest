@@ -1,0 +1,136 @@
+startup: Coverity Desktop Analysis version 2020.06 on Linux 5.4.0-47-generic x86_64
+startup: Internal version numbers: 6fbf2d48ad p-trail-push-1389
+startup: started at 2020-09-18 14:53:01
+startup: command line: /home/ala/cov-analysis-linux64-2020.06/bin/cov-run-desktop --dir /home/ala/CLionProjects/untitled/.idea/coverity/Default --occurrences 1- --no-default-triage-filters --previous-results --refresh-triage --url https://20.52.41.122:8443 --auth-key-file /home/ala/.coverity/authkeys/ak-20.52.41.122-8443 --stream test --reference-snapshot latest -sf /home/ala/cov-analysis-linux64-2020.06/bin/license.dat --code-base-dir /home/ala/CLionProjects/untitled --configuration-name Default --enable-fb --all --concurrency --security --webapp-security --android-security --enable-parse-warnings --json-output-v7 /home/ala/CLionProjects/untitled/.idea/coverity/Default/desktop/output.json --no-text-output --data-dir /home/ala/CLionProjects/untitled/data-coverity --tmpdir /tmp /home/ala/CLionProjects/untitled/main.cpp
+settings: Per-user coverity configuration file: /home/ala/.coverity/coverity.conf
+settings: Per-branch code base coverity configuration file: /home/ala/CLionProjects/untitled/coverity.conf
+settings: {
+settings:   "type": "Coverity configuration",
+settings:   "format_version": 1,
+settings:   "format_minor_version": 7,
+settings:   "settings": {
+settings:     "add_compiler_configurations": [
+settings:     ],
+settings:     "compiler_config_file": "/home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/coverity_config.xml",
+settings:     "compiler_configurations": [
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--javascript",
+settings:           "--if-supported-platform"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--php",
+settings:           "--if-supported-platform"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--python",
+settings:           "--if-supported-platform"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--ruby",
+settings:           "--if-supported-platform"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--gcc"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--java"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--msvc"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--cs"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--clang"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--swift"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--vb"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--go"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--scala-after-java"
+settings:         ]
+settings:       }
+settings:     ],
+settings:     "cov_run_desktop": {
+settings:       "allow_suffix_match": false,
+settings:       "build_cmd": [
+settings:         "make"
+settings:       ],
+settings:       "build_record_with_source": false,
+settings:       "clean_cmd": [
+settings:         "make",
+settings:         "clean"
+settings:       ],
+settings:       "ignore_uncapturable_inputs": false,
+settings:       "prefer_suffix_match": false,
+settings:       "reference_snapshot": "latest"
+settings:     },
+settings:     "data_dir": "/home/ala/CLionProjects/untitled/data-coverity",
+settings:     "intermediate_dir": "/home/ala/CLionProjects/untitled/.idea/coverity/Default",
+settings:     "known_installations": [
+settings:       {
+settings:         "directory": "/home/ala/cov-analysis-linux64-2020.06",
+settings:         "kind": "cov-analysis",
+settings:         "platform": "linux64",
+settings:         "version": "2020.06"
+settings:       }
+settings:     ],
+settings:     "license_file_dir": "/home/ala/CLionProjects/untitled/data-coverity/v2020.06/lic",
+settings:     "scm": {
+settings:     },
+settings:     "server": {
+settings:       "auth_key_file": "/home/ala/.coverity/authkeys/ak-20.52.41.122-8443",
+settings:       "authenticate_ssl": false,
+settings:       "ldap_server": "",
+settings:       "ssl": true,
+settings:       "url": "https://20.52.41.122:8443",
+settings:       "username": "ala"
+settings:     },
+settings:     "stream": "test",
+settings:     "tmpdir": "/tmp"
+settings:   }
+settings: }
+tu-selection: Selected TU 1 with primary source file /home/ala/CLionProjects/untitled/main.cpp
+triage: running: /home/ala/cov-analysis-linux64-2020.06/bin/cov-commit-defects --dir /home/ala/CLionProjects/untitled/.idea/coverity/Default --tmpdir /tmp --no-banner --ticker-mode=none --preview-report-v2 /home/ala/CLionProjects/untitled/.idea/coverity/Default/output/preview-report.json --cid-assignment-timeout 30 --comparison-snapshot-id 10005 --security-file /home/ala/cov-analysis-linux64-2020.06/bin/license.dat --auth-key-file /home/ala/.coverity/authkeys/ak-20.52.41.122-8443 --stream test --url https://20.52.41.122:8443
+triage: Getting data URL from https://20.52.41.122:8443/get-data-url.cgi
+triage: Saving server certificate as /home/ala/.coverity/certs/tft/host-20.52.41.122,port-9090.pem
+triage: Connecting to server 20.52.41.122:9090
+triage: Upgrading encryption to "required" because we have a certificate 
+triage: from a past session for this server.
+triage: Connection is encrypted.
+triage: [STATUS] 2020-09-18 12:53:03 UTC - Committing 3 defect files...
+triage: Elapsed time: 00:00:07
+triage: /home/ala/cov-analysis-linux64-2020.06/bin/cov-commit-defects took 7.1 seconds.
+shutdown: cov-run-desktop terminating with code 0 at 2020-09-18 14:53:09

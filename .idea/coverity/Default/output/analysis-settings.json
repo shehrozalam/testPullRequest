@@ -1,0 +1,21 @@
+{
+  "covAnalyzeArgs" : [
+    "--fb-include",
+    "coverity-default",
+    "--fb-exclude",
+    "desktop",
+    "--aggressiveness-level",
+    "high",
+    "--all",
+    "--concurrency",
+    "--security",
+    "--enable-fb",
+    "--enable-parse-warnings",
+    "--android-security",
+    "--webapp-security",
+    "--enable",
+    "PARSE_ERROR"
+  ],
+  "fileOptions" : [],
+  "fileCheckerOptions" : []
+}
