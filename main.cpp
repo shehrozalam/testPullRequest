@@ -22,6 +22,8 @@ int main() {
     int * newIntro;
     delete newIntro;
 
+    int* newPtr;
+
     int* assignThis = someMethod();
     return 0;
 }
