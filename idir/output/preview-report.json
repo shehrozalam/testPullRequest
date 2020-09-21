@@ -1,0 +1,231 @@
+{
+  "header" : {
+    "format" : "commit preview report",
+    "version" : 2
+  },
+  "analysisInfo" : {
+    "ownerAssignmentRule" : "default_component_owner",
+    "comparisonSnapshotId" : null,
+    "reportTimestamp" : "2020-09-18T13:12:55.828Z",
+    "user" : "admin",
+    "command" : "cov-analyze --dir idir --all --security --aggressiveness-level high"
+  },
+  "issueInfo" : [ {
+    "cid" : 10007,
+    "mergeKey" : "12bdaeb2f4c5fb356a84cfd2304f534c",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-09-16T08:28:37.540Z",
+    "occurrences" : [ {
+      "checker" : "USE_AFTER_FREE",
+      "file" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "function" : "main",
+      "extra" : "what",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "deref_write_after_free",
+      "mainEventLineNumber" : 20,
+      "mainEventDescription" : "Dereferencing freed pointer \"what\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C/C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : "admin",
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : "local"
+  }, {
+    "cid" : 10006,
+    "mergeKey" : "1a950e2caa0d91d0294594fed64b7b65",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-09-16T08:25:28.049Z",
+    "occurrences" : [ {
+      "checker" : "UNINIT",
+      "file" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "function" : "main",
+      "extra" : "what",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "pointer_deref_read",
+      "mainEventLineNumber" : 19,
+      "mainEventDescription" : "Using uninitialized value \"what\" when calling \"operator delete\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C/C++"
+    } ],
+    "triage" : {
+      "severity" : "Major",
+      "owner" : "admin",
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Fix Required",
+      "classification" : "Bug"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : "local"
+  }, {
+    "cid" : 10009,
+    "mergeKey" : "e1967965a869a5b19b38e4cf583cd9c5",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-09-17T07:19:07.200Z",
+    "occurrences" : [ {
+      "checker" : "UNINIT",
+      "file" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "function" : "_Z10someMethodv",
+      "extra" : "createOne",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "pointer_deref_read",
+      "mainEventLineNumber" : 5,
+      "mainEventDescription" : "Using uninitialized value \"createOne\" when calling \"operator delete\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C/C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : "admin",
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : "local"
+  }, {
+    "cid" : 10010,
+    "mergeKey" : "052503a4ad163635235680a65d579454",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-09-17T07:19:07.200Z",
+    "occurrences" : [ {
+      "checker" : "USE_AFTER_FREE",
+      "file" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "function" : "_Z10someMethodv",
+      "extra" : "createOne",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 7,
+      "mainEventDescription" : "Using freed pointer \"createOne\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C/C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : "admin",
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : "local"
+  }, {
+    "cid" : 10011,
+    "mergeKey" : "ebe220e3a0874dcea329b21800d43fb6",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-09-17T07:19:07.200Z",
+    "occurrences" : [ {
+      "checker" : "PW.DECLARED_BUT_NOT_REFERENCED",
+      "file" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "function" : "unknown",
+      "extra" : "    int* assignThis = someMethod();\n",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 22,
+      "mainEventDescription" : "variable \"assignThis\" was declared but never referenced",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C/C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : "admin",
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : "local"
+  }, {
+    "cid" : 10001,
+    "mergeKey" : "b3c9c0d09a4921964512fa14fc64e4d3",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-09-15T09:49:10.532Z",
+    "occurrences" : [ {
+      "checker" : "UNINIT",
+      "file" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "function" : "main",
+      "extra" : "newPtr",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "pointer_deref_read",
+      "mainEventLineNumber" : 13,
+      "mainEventDescription" : "Using uninitialized value \"newPtr\" when calling \"operator delete\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C/C++"
+    } ],
+    "triage" : {
+      "severity" : "Major",
+      "owner" : "admin",
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Fix Required",
+      "classification" : "Bug"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : "local"
+  }, {
+    "cid" : 10002,
+    "mergeKey" : "8d8f8340216c28e7234670179fb7b426",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-09-15T09:50:27.325Z",
+    "occurrences" : [ {
+      "checker" : "UNINIT",
+      "file" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "function" : "main",
+      "extra" : "anotherOne",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "pointer_deref_read",
+      "mainEventLineNumber" : 16,
+      "mainEventDescription" : "Using uninitialized value \"anotherOne\" when calling \"operator delete\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C/C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : "admin",
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : { },
+    "ownerLdapServerName" : "local"
+  } ]
+}

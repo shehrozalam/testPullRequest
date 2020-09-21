@@ -1,0 +1,14 @@
+/home/ala/cov-analysis-linux64-2020.06/bin/cov-analyze @@/tmp/cov-ala/99ac06dcbcc4918ddf5222cd22a49006/cov-analyze.default.txt 
+Analysis summary report:
+------------------------
+Files analyzed                 : 9 Total
+    C++                        : 9
+Total LoC input to cov-analyze : 28901
+Functions analyzed             : 14
+Classes/structs analyzed       : 11
+Paths analyzed                 : 21
+Time taken by analysis         : 00:00:01
+Defect occurrences found       : 8 Total
+                                 1 PW.DECLARED_BUT_NOT_REFERENCED
+                                 5 UNINIT
+                                 2 USE_AFTER_FREE

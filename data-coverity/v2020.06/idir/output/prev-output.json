@@ -1,0 +1,681 @@
+{
+  "type" : "Coverity issues",
+  "formatVersion" : 7,
+  "suppressedIssueCount" : 0,
+  "issues" : [
+    {
+      "mergeKey" : "12bdaeb2f4c5fb356a84cfd2304f534c",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "USE_AFTER_FREE",
+      "subcategory" : "deref_write_after_free",
+      "type" : "use_after_free",
+      "subtype" : "deref_write_after_free",
+      "code-language" : "c/c++",
+      "extra" : "what",
+      "domain" : "STATIC_C",
+      "language" : "C++",
+      "mainEventFilePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "strippedMainEventFilePathname" : "main.cpp",
+      "mainEventLineNumber" : 20,
+      "properties" : {},
+      "functionDisplayName" : "main",
+      "functionMangledName" : "main",
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{{0} frees {1}.}{{code{operator delete}}}{{code{what}}}}}}",
+          "eventDescription" : "\"operator delete\" frees \"what\".",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "freed_arg",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 19,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Dereferencing freed pointer {0}.}{{code{what}}}}}}",
+          "eventDescription" : "Dereferencing freed pointer \"what\".",
+          "eventNumber" : 2,
+          "eventTreePosition" : "2",
+          "eventSet" : 0,
+          "eventTag" : "deref_after_free",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 20,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : null,
+      "checkerProperties" : {
+        "category" : "Memory - corruptions",
+        "categoryDescription" : "Memory - corruptions",
+        "cweCategory" : "416",
+        "issueKinds" : [
+          "QUALITY",
+          "SECURITY"
+        ],
+        "eventSetCaptions" : [],
+        "impact" : "High",
+        "impactDescription" : "High",
+        "subcategoryLocalEffect" : "This could cause an immediate crash or incorrect values might be read subsequently; the allocator's own data structures may also be corrupted.",
+        "subcategoryShortDescription" : "Write to pointer after free",
+        "subcategoryLongDescription" : "Write to target of a freed pointer"
+      }
+    },
+    {
+      "mergeKey" : "1a950e2caa0d91d0294594fed64b7b65",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "UNINIT",
+      "subcategory" : "pointer_deref_read",
+      "type" : "uninit",
+      "subtype" : "pointer_deref_read",
+      "code-language" : "c/c++",
+      "extra" : "what",
+      "domain" : "STATIC_C",
+      "language" : "C++",
+      "mainEventFilePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "strippedMainEventFilePathname" : "main.cpp",
+      "mainEventLineNumber" : 19,
+      "properties" : {},
+      "functionDisplayName" : "main",
+      "functionMangledName" : "main",
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Declaring variable {0} without initializer.}{{code{what}}}}}}",
+          "eventDescription" : "Declaring variable \"what\" without initializer.",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "var_decl",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 18,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Using uninitialized value {0} when calling {1}.}{{code{what}}}{{code{operator delete}}}}}}",
+          "eventDescription" : "Using uninitialized value \"what\" when calling \"operator delete\".",
+          "eventNumber" : 2,
+          "eventTreePosition" : "2",
+          "eventSet" : 0,
+          "eventTag" : "uninit_use_in_call",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 19,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : null,
+      "checkerProperties" : {
+        "category" : "Memory - illegal accesses",
+        "categoryDescription" : "Memory - illegal accesses",
+        "cweCategory" : "457",
+        "issueKinds" : [
+          "QUALITY",
+          "SECURITY"
+        ],
+        "eventSetCaptions" : [],
+        "impact" : "High",
+        "impactDescription" : "High",
+        "subcategoryLocalEffect" : "Incorrect values could be read from, or even written to, an arbitrary memory location, causing incorrect computations.",
+        "subcategoryShortDescription" : "Uninitialized pointer read",
+        "subcategoryLongDescription" : "Reads an uninitialized pointer or its target"
+      }
+    },
+    {
+      "mergeKey" : "4f13cac5518508e31aa6dca57d0b8d47",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "UNINIT",
+      "subcategory" : "pointer_deref_read",
+      "type" : "uninit",
+      "subtype" : "pointer_deref_read",
+      "code-language" : "c/c++",
+      "extra" : "newIntro",
+      "domain" : "STATIC_C",
+      "language" : "C++",
+      "mainEventFilePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "strippedMainEventFilePathname" : "main.cpp",
+      "mainEventLineNumber" : 23,
+      "properties" : {},
+      "functionDisplayName" : "main",
+      "functionMangledName" : "main",
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Declaring variable {0} without initializer.}{{code{newIntro}}}}}}",
+          "eventDescription" : "Declaring variable \"newIntro\" without initializer.",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "var_decl",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 22,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Using uninitialized value {0} when calling {1}.}{{code{newIntro}}}{{code{operator delete}}}}}}",
+          "eventDescription" : "Using uninitialized value \"newIntro\" when calling \"operator delete\".",
+          "eventNumber" : 2,
+          "eventTreePosition" : "2",
+          "eventSet" : 0,
+          "eventTag" : "uninit_use_in_call",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 23,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : null,
+      "checkerProperties" : {
+        "category" : "Memory - illegal accesses",
+        "categoryDescription" : "Memory - illegal accesses",
+        "cweCategory" : "457",
+        "issueKinds" : [
+          "QUALITY",
+          "SECURITY"
+        ],
+        "eventSetCaptions" : [],
+        "impact" : "High",
+        "impactDescription" : "High",
+        "subcategoryLocalEffect" : "Incorrect values could be read from, or even written to, an arbitrary memory location, causing incorrect computations.",
+        "subcategoryShortDescription" : "Uninitialized pointer read",
+        "subcategoryLongDescription" : "Reads an uninitialized pointer or its target"
+      }
+    },
+    {
+      "mergeKey" : "8d8f8340216c28e7234670179fb7b426",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "UNINIT",
+      "subcategory" : "pointer_deref_read",
+      "type" : "uninit",
+      "subtype" : "pointer_deref_read",
+      "code-language" : "c/c++",
+      "extra" : "anotherOne",
+      "domain" : "STATIC_C",
+      "language" : "C++",
+      "mainEventFilePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "strippedMainEventFilePathname" : "main.cpp",
+      "mainEventLineNumber" : 16,
+      "properties" : {},
+      "functionDisplayName" : "main",
+      "functionMangledName" : "main",
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Declaring variable {0} without initializer.}{{code{anotherOne}}}}}}",
+          "eventDescription" : "Declaring variable \"anotherOne\" without initializer.",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "var_decl",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 15,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Using uninitialized value {0} when calling {1}.}{{code{anotherOne}}}{{code{operator delete}}}}}}",
+          "eventDescription" : "Using uninitialized value \"anotherOne\" when calling \"operator delete\".",
+          "eventNumber" : 2,
+          "eventTreePosition" : "2",
+          "eventSet" : 0,
+          "eventTag" : "uninit_use_in_call",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 16,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : null,
+      "checkerProperties" : {
+        "category" : "Memory - illegal accesses",
+        "categoryDescription" : "Memory - illegal accesses",
+        "cweCategory" : "457",
+        "issueKinds" : [
+          "QUALITY",
+          "SECURITY"
+        ],
+        "eventSetCaptions" : [],
+        "impact" : "High",
+        "impactDescription" : "High",
+        "subcategoryLocalEffect" : "Incorrect values could be read from, or even written to, an arbitrary memory location, causing incorrect computations.",
+        "subcategoryShortDescription" : "Uninitialized pointer read",
+        "subcategoryLongDescription" : "Reads an uninitialized pointer or its target"
+      }
+    },
+    {
+      "mergeKey" : "b3c9c0d09a4921964512fa14fc64e4d3",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "UNINIT",
+      "subcategory" : "pointer_deref_read",
+      "type" : "uninit",
+      "subtype" : "pointer_deref_read",
+      "code-language" : "c/c++",
+      "extra" : "newPtr",
+      "domain" : "STATIC_C",
+      "language" : "C++",
+      "mainEventFilePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "strippedMainEventFilePathname" : "main.cpp",
+      "mainEventLineNumber" : 13,
+      "properties" : {},
+      "functionDisplayName" : "main",
+      "functionMangledName" : "main",
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Declaring variable {0} without initializer.}{{code{newPtr}}}}}}",
+          "eventDescription" : "Declaring variable \"newPtr\" without initializer.",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "var_decl",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 12,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Using uninitialized value {0} when calling {1}.}{{code{newPtr}}}{{code{operator delete}}}}}}",
+          "eventDescription" : "Using uninitialized value \"newPtr\" when calling \"operator delete\".",
+          "eventNumber" : 2,
+          "eventTreePosition" : "2",
+          "eventSet" : 0,
+          "eventTag" : "uninit_use_in_call",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 13,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : null,
+      "checkerProperties" : {
+        "category" : "Memory - illegal accesses",
+        "categoryDescription" : "Memory - illegal accesses",
+        "cweCategory" : "457",
+        "issueKinds" : [
+          "QUALITY",
+          "SECURITY"
+        ],
+        "eventSetCaptions" : [],
+        "impact" : "High",
+        "impactDescription" : "High",
+        "subcategoryLocalEffect" : "Incorrect values could be read from, or even written to, an arbitrary memory location, causing incorrect computations.",
+        "subcategoryShortDescription" : "Uninitialized pointer read",
+        "subcategoryLongDescription" : "Reads an uninitialized pointer or its target"
+      }
+    },
+    {
+      "mergeKey" : "ebe220e3a0874dcea329b21800d43fb6",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "PW.DECLARED_BUT_NOT_REFERENCED",
+      "subcategory" : "none",
+      "type" : "unclassified_parse_warning",
+      "code-language" : "c/c++",
+      "extra" : "    int* assignThis = someMethod();\n",
+      "domain" : "STATIC_C",
+      "language" : "C++",
+      "mainEventFilePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "strippedMainEventFilePathname" : "main.cpp",
+      "mainEventLineNumber" : 25,
+      "properties" : {},
+      "functionDisplayName" : null,
+      "functionMangledName" : null,
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{{0} was declared but never referenced}{variable \"assignThis\"}}}}",
+          "eventDescription" : "variable \"assignThis\" was declared but never referenced",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "declared_but_not_referenced",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 25,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "         ^",
+          "eventDescription" : "         ^",
+          "eventNumber" : 2,
+          "eventTreePosition" : "2",
+          "eventSet" : 0,
+          "eventTag" : "caretline",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 25,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : {
+        "cid" : 10011,
+        "stream" : "shehrozTest",
+        "triage" : {
+          "action" : "Undecided",
+          "classification" : "Unclassified",
+          "externalReference" : "",
+          "fixTarget" : "Untargeted",
+          "legacy" : "False",
+          "owner" : "admin",
+          "severity" : "Unspecified"
+        },
+        "customTriage" : {},
+        "presentInReferenceSnapshot" : true,
+        "firstDetectedDateTime" : "2020-09-17T09:19:07+02:00",
+        "components" : [
+          "Other"
+        ],
+        "cached" : false,
+        "retrievalDateTime" : "2020-09-18T15:37:21+02:00",
+        "ownerLdapServerName" : "local"
+      },
+      "checkerProperties" : {
+        "category" : "Parse warnings",
+        "categoryDescription" : "Parse warnings",
+        "cweCategory" : "398",
+        "issueKinds" : [
+          "QUALITY"
+        ],
+        "eventSetCaptions" : [],
+        "impact" : "Low",
+        "impactDescription" : "Low",
+        "subcategoryLocalEffect" : "A parse warning may reduce maintainability of the code, or it may indicate a serious error.",
+        "subcategoryShortDescription" : "Parse warning",
+        "subcategoryLongDescription" : "A parse warning from the Coverity parser may indicate a bug, or poor coding practice"
+      }
+    },
+    {
+      "mergeKey" : "052503a4ad163635235680a65d579454",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "USE_AFTER_FREE",
+      "subcategory" : "none",
+      "type" : "use_after_free",
+      "subtype" : "pointer",
+      "code-language" : "c/c++",
+      "extra" : "createOne",
+      "domain" : "STATIC_C",
+      "language" : "C++",
+      "mainEventFilePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "strippedMainEventFilePathname" : "main.cpp",
+      "mainEventLineNumber" : 7,
+      "properties" : {},
+      "functionDisplayName" : "someMethod()",
+      "functionMangledName" : "_Z10someMethodv",
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{{0} frees {1}.}{{code{operator delete}}}{{code{createOne}}}}}}",
+          "eventDescription" : "\"operator delete\" frees \"createOne\".",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "freed_arg",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 5,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Using freed pointer {0}.}{{code{createOne}}}}}}",
+          "eventDescription" : "Using freed pointer \"createOne\".",
+          "eventNumber" : 2,
+          "eventTreePosition" : "2",
+          "eventSet" : 0,
+          "eventTag" : "use_after_free",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 7,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : {
+        "cid" : 10010,
+        "stream" : "shehrozTest",
+        "triage" : {
+          "action" : "Undecided",
+          "classification" : "Unclassified",
+          "externalReference" : "",
+          "fixTarget" : "Untargeted",
+          "legacy" : "False",
+          "owner" : "admin",
+          "severity" : "Unspecified"
+        },
+        "customTriage" : {},
+        "presentInReferenceSnapshot" : true,
+        "firstDetectedDateTime" : "2020-09-17T09:19:07+02:00",
+        "components" : [
+          "Other"
+        ],
+        "cached" : false,
+        "retrievalDateTime" : "2020-09-18T15:37:21+02:00",
+        "ownerLdapServerName" : "local"
+      },
+      "checkerProperties" : {
+        "category" : "Memory - illegal accesses",
+        "categoryDescription" : "Memory - illegal accesses",
+        "cweCategory" : "416",
+        "issueKinds" : [
+          "QUALITY",
+          "SECURITY"
+        ],
+        "eventSetCaptions" : [],
+        "impact" : "High",
+        "impactDescription" : "High",
+        "subcategoryLocalEffect" : "This could cause an immediate crash or incorrect values might be read subsequently resulting in incorrect computations.",
+        "subcategoryShortDescription" : "Use after free",
+        "subcategoryLongDescription" : "A pointer to freed memory is  dereferenced, used as a function argument, or otherwise used"
+      }
+    },
+    {
+      "mergeKey" : "e1967965a869a5b19b38e4cf583cd9c5",
+      "occurrenceCountForMK" : 1,
+      "occurrenceNumberInMK" : 1,
+      "referenceOccurrenceCountForMK" : null,
+      "checkerName" : "UNINIT",
+      "subcategory" : "pointer_deref_read",
+      "type" : "uninit",
+      "subtype" : "pointer_deref_read",
+      "code-language" : "c/c++",
+      "extra" : "createOne",
+      "domain" : "STATIC_C",
+      "language" : "C++",
+      "mainEventFilePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+      "strippedMainEventFilePathname" : "main.cpp",
+      "mainEventLineNumber" : 5,
+      "properties" : {},
+      "functionDisplayName" : "someMethod()",
+      "functionMangledName" : "_Z10someMethodv",
+      "localStatus" : null,
+      "ordered" : true,
+      "events" : [
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Declaring variable {0} without initializer.}{{code{createOne}}}}}}",
+          "eventDescription" : "Declaring variable \"createOne\" without initializer.",
+          "eventNumber" : 1,
+          "eventTreePosition" : "1",
+          "eventSet" : 0,
+          "eventTag" : "var_decl",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 4,
+          "main" : false,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        },
+        {
+          "covLStrEventDescription" : "{CovLStrv2{{t{Using uninitialized value {0} when calling {1}.}{{code{createOne}}}{{code{operator delete}}}}}}",
+          "eventDescription" : "Using uninitialized value \"createOne\" when calling \"operator delete\".",
+          "eventNumber" : 2,
+          "eventTreePosition" : "2",
+          "eventSet" : 0,
+          "eventTag" : "uninit_use_in_call",
+          "filePathname" : "/home/ala/CLionProjects/untitled/main.cpp",
+          "strippedFilePathname" : "main.cpp",
+          "lineNumber" : 5,
+          "main" : true,
+          "moreInformationId" : null,
+          "remediation" : false,
+          "events" : null
+        }
+      ],
+      "stateOnServer" : {
+        "cid" : 10009,
+        "stream" : "shehrozTest",
+        "triage" : {
+          "action" : "Undecided",
+          "classification" : "Unclassified",
+          "externalReference" : "",
+          "fixTarget" : "Untargeted",
+          "legacy" : "False",
+          "owner" : "admin",
+          "severity" : "Unspecified"
+        },
+        "customTriage" : {},
+        "presentInReferenceSnapshot" : true,
+        "firstDetectedDateTime" : "2020-09-17T09:19:07+02:00",
+        "components" : [
+          "Other"
+        ],
+        "cached" : false,
+        "retrievalDateTime" : "2020-09-18T15:37:21+02:00",
+        "ownerLdapServerName" : "local"
+      },
+      "checkerProperties" : {
+        "category" : "Memory - illegal accesses",
+        "categoryDescription" : "Memory - illegal accesses",
+        "cweCategory" : "457",
+        "issueKinds" : [
+          "QUALITY",
+          "SECURITY"
+        ],
+        "eventSetCaptions" : [],
+        "impact" : "High",
+        "impactDescription" : "High",
+        "subcategoryLocalEffect" : "Incorrect values could be read from, or even written to, an arbitrary memory location, causing incorrect computations.",
+        "subcategoryShortDescription" : "Uninitialized pointer read",
+        "subcategoryLongDescription" : "Reads an uninitialized pointer or its target"
+      }
+    }
+  ],
+  "desktopAnalysisSettings" : {
+    "analysisDateTime" : "2020-09-18T15:37:05+02:00",
+    "covRunDesktopArgs" : [
+      "--ssl",
+      "--dir",
+      "/home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir",
+      "--data-dir",
+      "/home/ala/CLionProjects/untitled/data-coverity",
+      "--tmpdir",
+      "/tmp",
+      "main.cpp"
+    ],
+    "effectiveStripPaths" : [
+      "/home/ala/CLionProjects/untitled"
+    ],
+    "analysisScopePathnames" : [
+      "/home/ala/CLionProjects/untitled/main.cpp"
+    ],
+    "strippedAnalysisScopePathnames" : [
+      "main.cpp"
+    ],
+    "auxiliaryScopePathnames" : [],
+    "strippedAuxiliaryScopePathnames" : [],
+    "referenceSnapshot" : {
+      "snapshotId" : 10006,
+      "codeVersionDateTime" : "2020-09-18T15:11:07+02:00",
+      "description" : "",
+      "version" : "",
+      "analysisVersion" : "2020.06",
+      "analysisVersionOverride" : "",
+      "target" : ""
+    },
+    "effectiveAnalysisSettings" : {
+      "covAnalyzeArgs" : [
+        "--fb-include",
+        "coverity-default",
+        "--fb-exclude",
+        "desktop",
+        "--aggressiveness-level",
+        "high",
+        "--all",
+        "--security",
+        "--enable",
+        "PARSE_ERROR"
+      ],
+      "fileOptions" : [],
+      "fileCheckerOptions" : []
+    },
+    "relativeTo" : "/home/ala/CLionProjects/untitled",
+    "intermediateDir" : "/home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir"
+  },
+  "error" : null,
+  "warnings" : []
+}

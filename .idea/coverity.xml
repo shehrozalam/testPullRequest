@@ -347,17 +347,17 @@
                       <SettingsBean>
                         <option name="properties">
                           <map>
-                            <entry key="col.Action.width" value="158" />
-                            <entry key="col.CID.width" value="159" />
-                            <entry key="col.Category.width" value="158" />
+                            <entry key="col.Action.width" value="180" />
+                            <entry key="col.CID.width" value="180" />
+                            <entry key="col.Category.width" value="180" />
                             <entry key="col.Checker.width" value="0" />
-                            <entry key="col.Classification.width" value="158" />
-                            <entry key="col.Component.width" value="158" />
+                            <entry key="col.Classification.width" value="180" />
+                            <entry key="col.Component.width" value="179" />
                             <entry key="col.Ext. Reference.width" value="0" />
-                            <entry key="col.File.width" value="157" />
+                            <entry key="col.File.width" value="179" />
                             <entry key="col.First Detected.width" value="0" />
                             <entry key="col.Fix Target.width" value="0" />
-                            <entry key="col.Function.width" value="158" />
+                            <entry key="col.Function.width" value="179" />
                             <entry key="col.Impact.width" value="0" />
                             <entry key="col.Language.width" value="0" />
                             <entry key="col.Last Detected.width" value="0" />
@@ -365,10 +365,10 @@
                             <entry key="col.Legacy.width" value="0" />
                             <entry key="col.MISRA Category.width" value="0" />
                             <entry key="col.Occurrences.width" value="0" />
-                            <entry key="col.Owner.width" value="158" />
+                            <entry key="col.Owner.width" value="179" />
                             <entry key="col.Present In Reference.width" value="0" />
-                            <entry key="col.Severity.width" value="158" />
-                            <entry key="col.Type.width" value="158" />
+                            <entry key="col.Severity.width" value="179" />
+                            <entry key="col.Type.width" value="179" />
                             <entry key="cols" value="Impact!:=~=:!Owner!:=~=:!Action!:=~=:!Fix Target!:=~=:!Checker!:=~=:!Category!:=~=:!MISRA Category!:=~=:!Legacy!:=~=:!Occurrences!:=~=:!Severity!:=~=:!Last Detected!:=~=:!Function!:=~=:!Type!:=~=:!Language!:=~=:!Last Triaged!:=~=:!Classification!:=~=:!First Detected!:=~=:!Present In Reference!:=~=:!Ext. Reference!:=~=:!Component!:=~=:!File!:=~=:!CID" />
                             <entry key="cols.override" value="false" />
                             <entry key="order" value="CID!:=~=:!Type!:=~=:!Owner!:=~=:!Classification!:=~=:!Severity!:=~=:!Action!:=~=:!Fix Target!:=~=:!Legacy!:=~=:!Ext. Reference!:=~=:!Component!:=~=:!Category!:=~=:!Function!:=~=:!File!:=~=:!Occurrences!:=~=:!First Detected!:=~=:!Last Detected!:=~=:!Last Triaged!:=~=:!Impact!:=~=:!Checker!:=~=:!Present In Reference!:=~=:!Language!:=~=:!MISRA Category" />

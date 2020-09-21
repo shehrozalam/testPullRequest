@@ -1,0 +1,1828 @@
+2020-09-18T13:36:45.633040Z|cov-build|10413|info|> cov-build 2020.06 (build 6fbf2d48ad p-trail-push-1389)
+2020-09-18T13:36:45.633056Z|cov-build|10413|info|> Dumping from hostname : ala-VirtualBox
+2020-09-18T13:36:45.633056Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633061Z|cov-build|10413|info|> Platform info:
+2020-09-18T13:36:45.633061Z|cov-build|10413|info|> Sysname = Linux
+2020-09-18T13:36:45.633061Z|cov-build|10413|info|> Release = 5.4.0-47-generic
+2020-09-18T13:36:45.633061Z|cov-build|10413|info|> Machine = x86_64
+2020-09-18T13:36:45.633061Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633061Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633072Z|cov-build|10413|info|> cov-build command: /home/ala/cov-analysis-linux64-2020.06/bin/cov-build --no-banner --desktop --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --config /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/coverity_config.xml make 
+2020-09-18T13:36:45.633077Z|cov-build|10413|info|> cov-build expanded command: /home/ala/cov-analysis-linux64-2020.06/bin/cov-build --no-banner --desktop --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --config /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/coverity_config.xml make 
+2020-09-18T13:36:45.633208Z|cov-build|10413|info|> build command: /usr/bin/make
+2020-09-18T13:36:45.633214Z|cov-build|10413|info|> thunk command: /home/ala/cov-analysis-linux64-2020.06/bin/cov-internal-thunk.sh make
+2020-09-18T13:36:45.633214Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633219Z|cov-build|10413|info|> Set UseSharedCompilation to false.
+2020-09-18T13:36:45.633225Z|cov-build|10413|info|> Set COVERITY_BIN to /home/ala/cov-analysis-linux64-2020.06/bin
+2020-09-18T13:36:45.633234Z|cov-build|10413|info|> Set COVERITY_SITE_CC to Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe;apt;cl;clang;clang++;csc;csc.dll;csc2;devenv;dotnet;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;go;java;javac;javaw;ld;link;msbuild;razor;scala;scalac;swift;swiftc;vbc;vbc.dll
+2020-09-18T13:36:45.633239Z|cov-build|10413|info|> Set COVERITY_SITE_CC_CAPTURE_DESCENDANTS to dotnet
+2020-09-18T13:36:45.633243Z|cov-build|10413|info|> Set COVERITY_TEMP to /tmp/cov-ala/68123764746d04c124b6d629e80fda98
+2020-09-18T13:36:45.633249Z|cov-build|10413|info|> Set COVERITY_COMMON_TEMP to /tmp
+2020-09-18T13:36:45.633254Z|cov-build|10413|info|> Set COVERITY_IDIR to /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir
+2020-09-18T13:36:45.633266Z|cov-build|10413|info|> Set COVERITY_OUTPUT to /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/build-log.txt
+2020-09-18T13:36:45.633269Z|cov-build|10413|info|> Set COVERITY_LOG to /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/build-log.txt
+2020-09-18T13:36:45.633276Z|cov-build|10413|info|> Set COVERITY_OUTPUT_ENCODING to UTF-8
+2020-09-18T13:36:45.633280Z|cov-build|10413|info|> Set COVERITY_SYSTEM_ENCODING to UTF-8
+2020-09-18T13:36:45.633284Z|cov-build|10413|info|> Set COVERITY_EMIT to /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit
+2020-09-18T13:36:45.633293Z|cov-build|10413|info|> Set COVERITY_EMIT to /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit
+2020-09-18T13:36:45.633303Z|cov-build|10413|info|> Set COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY to 1
+2020-09-18T13:36:45.633338Z|cov-build|10413|info|> Set COVERITY_JAVA_CONFIG to javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2020-09-18T13:36:45.633351Z|cov-build|10413|info|> Set COVERITY_IS_COMPILER to 0
+2020-09-18T13:36:45.633353Z|cov-build|10413|info|> Set COVERITY_TOP_PROCESS to 0
+2020-09-18T13:36:45.633355Z|cov-build|10413|info|> Set COVERITY_IS_COMPILER_DESCENDANT to 0
+2020-09-18T13:36:45.633357Z|cov-build|10413|info|> Set COVERITY_DISENGAGE_EXES to "qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64"
+2020-09-18T13:36:45.633372Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633372Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633372Z|cov-build|10413|info|> Dumping configuration:
+2020-09-18T13:36:45.633372Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633378Z|cov-build|10413|info|> User/default configuration:
+2020-09-18T13:36:45.633378Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|> Configuration read from: command-line
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/coverity_config.xml
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|>     Node: prevent
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|>       Node: emit_options
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|>         Node: desktop Value: true
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|>     Node: prevent
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|>       Node: dir Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir
+2020-09-18T13:36:45.633381Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-javascript-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-html-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-typescript-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-jsx-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-vue-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-capture-config-files-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-php-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-python-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-ruby-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-1/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-2/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-1/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-2/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-ld-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-javac-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-java-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-apt-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-javaw-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-jsp-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-android-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc_devenv-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc_msbuild-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc_link-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-csc-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-csc-config-1/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-csc-config-2/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-dotnet-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-1/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-2/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-3/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-4/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-5/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-6/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcc-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcxx-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-swift-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-swiftc-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-vbc-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-vbc-config-1/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-go-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-go-module-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-scalac-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|>     Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-scala-config-0/coverity_config.xml
+2020-09-18T13:36:45.633399Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-javascript-config-0/coverity_config.xml
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-javascript-0
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>         Node: comp_translator Value: javascript
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>         Node: comp_generic Value: javascript
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>         Node: file_include_pattern Value: ^.*\.(js|xsjs|xsjslib|map)$
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-.*
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|>   Node: md5 Value: 5dc7fe28a5d7a345225ec3edabbf5701
+2020-09-18T13:36:45.633514Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-html-config-0/coverity_config.xml
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-html-0
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>         Node: comp_translator Value: html
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>         Node: comp_generic Value: javascript
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>         Node: file_include_pattern Value: ^.*\.(html|htm)$
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>         Node: id Value: html-cov-filesystem-capture-html-0-.*
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|>   Node: md5 Value: 874e134728d1412d745d699feb38e141
+2020-09-18T13:36:45.633545Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-typescript-config-0/coverity_config.xml
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-typescript-0
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>         Node: comp_translator Value: typescript
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>         Node: comp_generic Value: typescript
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>         Node: file_include_pattern Value: ^.*(\.ts(x?)|tsconfig.json)$
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>         Node: id Value: typescript-cov-filesystem-capture-typescript-0-.*
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|>   Node: md5 Value: 0fbcd451629a877b0945511269f745bd
+2020-09-18T13:36:45.633574Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-jsx-config-0/coverity_config.xml
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-jsx-0
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>         Node: comp_translator Value: jsx
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>         Node: comp_generic Value: javascript
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>         Node: file_include_pattern Value: ^.*\.jsx$
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>         Node: id Value: jsx-cov-filesystem-capture-jsx-0-.*
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|>   Node: md5 Value: 6ef7db223c129acd408eed304126e3a1
+2020-09-18T13:36:45.633604Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-vue-config-0/coverity_config.xml
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-vue-0
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>         Node: comp_translator Value: vue
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>         Node: comp_generic Value: javascript
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>         Node: file_include_pattern Value: ^.*\.vue$
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>         Node: id Value: vue-cov-filesystem-capture-vue-0-.*
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|>   Node: md5 Value: e2e0d3714ab927a7bdeebe5c48dde342
+2020-09-18T13:36:45.633633Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-capture-config-files-config-0/coverity_config.xml
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-capture-config-files-0
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>         Node: comp_translator Value: capture-config-files
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>         Node: comp_generic Value: capture_config_files
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>         Node: file_include_pattern Value: $capture-config-files$
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]node_modules[/\\]
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\]jquery[^/\\]*[.]js$
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>         Node: file_exclude_pattern Value: [/\\][^/\\]*-vsdoc[.]js$
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>         Node: id Value: capture-config-files-cov-filesystem-capture-capture-config-files-0-.*
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|>   Node: md5 Value: 517edfec29af9c5a73243432c980d2e7
+2020-09-18T13:36:45.633661Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-php-config-0/coverity_config.xml
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-php-0
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>         Node: comp_translator Value: php
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>         Node: comp_generic Value: php
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>         Node: file_include_pattern Value: ^.*\.ph(p|p3|p4|p5|p7|tml)$
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>         Node: id Value: php-cov-filesystem-capture-php-0-.*
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|>   Node: md5 Value: 6db33a0a68d7f8c9b0f5085b9afaab3b
+2020-09-18T13:36:45.633691Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-python-config-0/coverity_config.xml
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-python-0
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>         Node: comp_translator Value: python
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>         Node: comp_generic Value: python
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>         Node: file_include_pattern Value: ^.*\.py$
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>         Node: id Value: python-cov-filesystem-capture-python-0-.*
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|>   Node: md5 Value: 4498fd410774a9faa0109aad2e182841
+2020-09-18T13:36:45.633715Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-ruby-config-0/coverity_config.xml
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-ruby-0
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>         Node: comp_translator Value: ruby
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>         Node: comp_generic Value: ruby
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>         Node: file_include_pattern Value: ^.*(\.rb|Gemfile)$
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>         Node: id Value: ruby-cov-filesystem-capture-ruby-0-.*
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|>   Node: md5 Value: 9a95acc499de60467aeb7e3b29315f90
+2020-09-18T13:36:45.633741Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-0/coverity_config.xml
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: comp_name Value: gcc
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: comp_translator Value: gcc
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: id Value: gcc-gcc-.*
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-0/../user_nodefs.h
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: id Value: g++-gcc-.*
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-0/../user_nodefs.h
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: id Value: g++cc-gcc-.*
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-0/../user_nodefs.h
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|>   Node: md5 Value: 220ab2f621b426ef21b5bff0d14bd626
+2020-09-18T13:36:45.633765Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-0/coverity_config.xml
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>         Node: comp_name Value: g++
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>         Node: comp_translator Value: g++
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>         Node: id Value: g++-g++-.*
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-0/../user_nodefs.h
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>         Node: id Value: g++cc-g++-.*
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-0/../user_nodefs.h
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|>   Node: md5 Value: d8da15d655e23f85d5c6ae35de65d439
+2020-09-18T13:36:45.633803Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-1/coverity_config.xml
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: comp_name Value: gcc-3
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: comp_translator Value: gcc
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: id Value: gcc-gcc-3-.*
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-1/../user_nodefs.h
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: id Value: g++-gcc-3-.*
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-1/../user_nodefs.h
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: id Value: g++cc-gcc-3-.*
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-1/../user_nodefs.h
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|>   Node: md5 Value: 6a6dc6f1a6c9360514c721c673fa1951
+2020-09-18T13:36:45.633834Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-2/coverity_config.xml
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: comp_name Value: gcc-4
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: comp_translator Value: gcc
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: id Value: gcc-gcc-4-.*
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-2/../user_nodefs.h
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: id Value: g++-gcc-4-.*
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-2/../user_nodefs.h
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: id Value: g++cc-gcc-4-.*
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-gcc-config-2/../user_nodefs.h
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|>   Node: md5 Value: 6f1a220d892e908cc9817e94bdeb7bc5
+2020-09-18T13:36:45.633872Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-1/coverity_config.xml
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>         Node: comp_name Value: g++-3
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>         Node: comp_translator Value: g++
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>         Node: id Value: g++-g++-3-.*
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-1/../user_nodefs.h
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>         Node: id Value: g++cc-g++-3-.*
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-1/../user_nodefs.h
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|>   Node: md5 Value: ada4013796c1b19ed1fe7ebb4197cd2d
+2020-09-18T13:36:45.633908Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-2/coverity_config.xml
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>         Node: comp_name Value: g++-4
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>         Node: comp_translator Value: g++
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>         Node: id Value: g++-g++-4-.*
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-2/../user_nodefs.h
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>         Node: id Value: g++cc-g++-4-.*
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-g++-config-2/../user_nodefs.h
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|>   Node: md5 Value: deb1268a1fd912fa66d290aac3a8d6e1
+2020-09-18T13:36:45.633960Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-ld-config-0/coverity_config.xml
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>         Node: comp_name Value: ld
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>         Node: comp_translator Value: ld
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>         Node: id Value: ld-ld-.*
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-ld-config-0/../user_nodefs.h
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|>   Node: md5 Value: a31ebdf549aecdabc7c15e5c23be5e63
+2020-09-18T13:36:45.633990Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-javac-config-0/coverity_config.xml
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>         Node: comp_name Value: javac
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>         Node: comp_translator Value: javac
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>         Node: comp_lang Value: Static Java
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>         Node: comp_generic Value: java
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>         Node: id Value: javac-javac-.*
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|>   Node: md5 Value: 4dff82855a5f75486f23dc3987a065c8
+2020-09-18T13:36:45.634018Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-java-config-0/coverity_config.xml
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>         Node: comp_name Value: java
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>         Node: comp_translator Value: java
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>         Node: comp_lang Value: Static Java
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>         Node: comp_generic Value: java
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>         Node: id Value: java-java-.*
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|>   Node: md5 Value: 670e0eff61ca6e268d4c53f998738922
+2020-09-18T13:36:45.634041Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-apt-config-0/coverity_config.xml
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>         Node: comp_name Value: apt
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>         Node: comp_translator Value: apt
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>         Node: comp_lang Value: Static Java
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>         Node: comp_generic Value: java
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>         Node: id Value: apt-apt-.*
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|>   Node: md5 Value: 0c3c17692884987df5fe47566993553e
+2020-09-18T13:36:45.634064Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-javaw-config-0/coverity_config.xml
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>         Node: comp_name Value: javaw
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>         Node: comp_translator Value: javaw
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>         Node: comp_lang Value: Static Java
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>         Node: comp_generic Value: java
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>         Node: id Value: javaw-javaw-.*
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|>   Node: md5 Value: aa3bf49b5164470df847ce74b96aa069
+2020-09-18T13:36:45.634088Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-jsp-config-0/coverity_config.xml
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-jsp-0
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>         Node: comp_translator Value: jsp
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>         Node: comp_generic Value: java
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>         Node: file_include_pattern Value: ^.*\.(jsp|jspx)$
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>         Node: id Value: jsp-cov-filesystem-capture-jsp-0-.*
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|>   Node: md5 Value: 425f5b1409471a4a55890e518ffea917
+2020-09-18T13:36:45.634111Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-android-config-0/coverity_config.xml
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-android-0
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>         Node: comp_translator Value: android
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>         Node: comp_generic Value: java
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>         Node: file_include_pattern Value: ^.*(layout.*[/\\].*\.xml|AndroidManifest\.xml)$
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>         Node: id Value: android-cov-filesystem-capture-android-0-.*
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|>   Node: md5 Value: 2038ccdce64ccbc0d91a6d98e3ada876
+2020-09-18T13:36:45.634135Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc-config-0/coverity_config.xml
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: comp_name Value: cl
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: comp_translator Value: msvc
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: comp_generic Value: msvc
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: id Value: msvc-cl-.*
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: var_name Value: cov_instrument_config_version
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: 3
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_deployment_path
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_header_path
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_name
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: x64
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: libci-runtime-x64.lib
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: x86
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: libci-runtime-x86.lib
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_path
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: id Value: msvc_cxx-cl-.*
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: var_name Value: cov_instrument_config_version
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: 3
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_deployment_path
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_header_path
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_name
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: x64
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: libci-runtime-x64.lib
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: x86
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: libci-runtime-x86.lib
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_path
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|>   Node: md5 Value: b0b50c65438ca56f50edc75820645da7
+2020-09-18T13:36:45.634161Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc_devenv-config-0/coverity_config.xml
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>         Node: comp_name Value: devenv
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>         Node: comp_translator Value: msvc_devenv
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>         Node: comp_generic Value: msvc
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>         Node: id Value: msvc_devenv-devenv-.*
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc_devenv-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|>   Node: md5 Value: 1bd6116a591fe1eeb03a04d0299f415d
+2020-09-18T13:36:45.634276Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc_msbuild-config-0/coverity_config.xml
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>         Node: comp_name Value: msbuild
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>         Node: comp_translator Value: msvc_msbuild
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>         Node: comp_generic Value: msvc
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>         Node: id Value: msvc_msbuild-msbuild-.*
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc_msbuild-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|>   Node: md5 Value: 90758a4508778ab76c418f64362bed29
+2020-09-18T13:36:45.634309Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc_link-config-0/coverity_config.xml
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: comp_name Value: link
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: comp_translator Value: msvc_link
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: comp_generic Value: msvc
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: id Value: msvc_link-link-.*
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-msvc_link-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>           Node: var_name Value: cov_instrument_config_version
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: var_value Value: 3
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_deployment_path
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_header_path
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_name
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: platform_name Value: x64
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: var_value Value: libci-runtime-x64.lib
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: platform_name Value: x86
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: var_value Value: libci-runtime-x86.lib
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: instrument_variable
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>           Node: var_name Value: cov_lib_path
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>           Node: cond_platform_value
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: platform_name Value: all
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|>   Node: md5 Value: fc547cac745f504d8b9aecd1de468328
+2020-09-18T13:36:45.634337Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-csc-config-0/coverity_config.xml
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>         Node: comp_name Value: csc
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>         Node: comp_translator Value: csc
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>         Node: comp_lang Value: C#
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>         Node: comp_generic Value: csc
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>         Node: id Value: csc-csc-.*
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|>   Node: md5 Value: fe090f9c5ade85b6791417ae28e7af34
+2020-09-18T13:36:45.634403Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-csc-config-1/coverity_config.xml
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>         Node: comp_name Value: csc2
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>         Node: comp_translator Value: csc
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>         Node: comp_lang Value: C#
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>         Node: comp_generic Value: csc
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>         Node: id Value: csc-csc2-.*
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|>   Node: md5 Value: 977437d947559cc8595a296b529da4b3
+2020-09-18T13:36:45.634457Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-csc-config-2/coverity_config.xml
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>         Node: comp_name Value: csc.dll
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>         Node: comp_translator Value: csc
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>         Node: comp_lang Value: C#
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>         Node: comp_generic Value: csc
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>         Node: id Value: csc-csc.dll-.*
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|>   Node: md5 Value: d7617a61a1e5d38ea17e0065e15a334c
+2020-09-18T13:36:45.634481Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-dotnet-config-0/coverity_config.xml
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>         Node: comp_name Value: dotnet
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>         Node: comp_translator Value: dotnet
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>         Node: comp_lang Value: C#
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>         Node: comp_capture_descendants Value: true
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>         Node: comp_generic Value: dotnet
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>         Node: id Value: dotnet-dotnet-.*
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|>   Node: md5 Value: c1f04f52f32e19ee321f007827420925
+2020-09-18T13:36:45.634506Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-0/coverity_config.xml
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>         Node: comp_name Value: razor
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>         Node: comp_translator Value: razor
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>         Node: comp_lang Value: Razor
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>         Node: comp_generic Value: razor
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>         Node: id Value: razor-razor-.*
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|>   Node: md5 Value: 299c29c5e1aed07e748c20434abece6a
+2020-09-18T13:36:45.634530Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-1/coverity_config.xml
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>         Node: comp_translator Value: razor
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>         Node: comp_lang Value: Razor
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>         Node: comp_generic Value: razor
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe-.*
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|>   Node: md5 Value: b8062469abf35bf27e59c61097a25898
+2020-09-18T13:36:45.634553Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-2/coverity_config.xml
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>         Node: comp_translator Value: razor
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>         Node: comp_lang Value: Razor
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>         Node: comp_generic Value: razor
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll-.*
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|>   Node: md5 Value: a9f1338dd3da86ae5a0b02feb72011bc
+2020-09-18T13:36:45.634578Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-3/coverity_config.xml
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>         Node: comp_translator Value: razor
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>         Node: comp_lang Value: Razor
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>         Node: comp_generic Value: razor
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe-.*
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|>   Node: md5 Value: d148b26c0cca97f3cfbca9c9e97fbd2c
+2020-09-18T13:36:45.634601Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-4/coverity_config.xml
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>         Node: comp_translator Value: razor
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>         Node: comp_lang Value: Razor
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>         Node: comp_generic Value: razor
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe-.*
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|>   Node: md5 Value: 4192dd38aff0a2b1f462f5ea2de56602
+2020-09-18T13:36:45.634625Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-5/coverity_config.xml
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>         Node: comp_translator Value: razor
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>         Node: comp_lang Value: Razor
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>         Node: comp_generic Value: razor
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll-.*
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|>   Node: md5 Value: 9fac531b04a3ec13b4f2c7884a7b9d4d
+2020-09-18T13:36:45.634650Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-razor-config-6/coverity_config.xml
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>         Node: comp_name Value: Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>         Node: comp_translator Value: razor
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>         Node: comp_lang Value: Razor
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>         Node: comp_generic Value: razor
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>         Node: id Value: razor-Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll-.*
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|>   Node: md5 Value: 42e63af2dc0e9a8129a530b0de6d639f
+2020-09-18T13:36:45.634673Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcc-config-0/coverity_config.xml
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: comp_name Value: clang
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: comp_translator Value: clangcc
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: comp_generic Value: clang
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: id Value: clangcc-clang-.*
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcc-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: id Value: clangcxx-clang-.*
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcc-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: id Value: clangcxxcc-clang-.*
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcc-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: id Value: clangobjc-clang-.*
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcc-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: id Value: clangobjcxx-clang-.*
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcc-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|>   Node: md5 Value: 15fd1279f5d22c97f5ebadaac9bf1e6b
+2020-09-18T13:36:45.634696Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcxx-config-0/coverity_config.xml
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: comp_name Value: clang++
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: comp_translator Value: clangcxx
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: comp_generic Value: clang
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: id Value: clangcxx-clang++-.*
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcxx-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: id Value: clangcxxcc-clang++-.*
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcxx-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: id Value: clangobjc-clang++-.*
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcxx-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: id Value: clangobjcxx-clang++-.*
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-clangcxx-config-0/../user_nodefs.h
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|>   Node: md5 Value: a5fffed9db920f7281ac5687f6514630
+2020-09-18T13:36:45.634746Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-swift-config-0/coverity_config.xml
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>         Node: comp_name Value: swift
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>         Node: comp_translator Value: swift
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>         Node: comp_lang Value: Swift
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>         Node: comp_generic Value: swift
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>         Node: id Value: swift-swift-.*
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|>   Node: md5 Value: 971ef94b00e68681479ad4b5afb1196c
+2020-09-18T13:36:45.634790Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-swiftc-config-0/coverity_config.xml
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>         Node: comp_name Value: swiftc
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>         Node: comp_translator Value: swiftc
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>         Node: comp_lang Value: Swift
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>         Node: comp_generic Value: swiftc
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>         Node: id Value: swiftc-swiftc-.*
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|>   Node: md5 Value: 3d621da669910c0302c709943aa6b104
+2020-09-18T13:36:45.634813Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-vbc-config-0/coverity_config.xml
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>         Node: comp_name Value: vbc
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>         Node: comp_translator Value: vbc
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>         Node: comp_lang Value: Visual Basic
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>         Node: comp_generic Value: vbc
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>         Node: id Value: vbc-vbc-.*
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|>   Node: md5 Value: feeb8b03a6f975f0aaca18abe6c96895
+2020-09-18T13:36:45.634837Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-vbc-config-1/coverity_config.xml
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>         Node: comp_name Value: vbc.dll
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>         Node: comp_translator Value: vbc
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>         Node: comp_lang Value: Visual Basic
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>         Node: comp_generic Value: vbc
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>         Node: id Value: vbc-vbc.dll-.*
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|>   Node: md5 Value: fb11aa1996139335dbc0bdc5b4851b37
+2020-09-18T13:36:45.634859Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-go-config-0/coverity_config.xml
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>         Node: comp_name Value: go
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>         Node: comp_translator Value: go
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>         Node: comp_lang Value: Go
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>         Node: comp_generic Value: go
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>         Node: id Value: go-go-.*
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|>   Node: md5 Value: 395609931cebc474122a4d66367445f5
+2020-09-18T13:36:45.634882Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-go-module-config-0/coverity_config.xml
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>         Node: comp_name Value: cov-filesystem-capture-go-module-0
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>         Node: comp_translator Value: go-module
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>         Node: comp_lang Value: Non Compiled
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>         Node: comp_generic Value: go
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>         Node: file_include_pattern Value: ^go\.mod$
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>         Node: id Value: go-module-cov-filesystem-capture-go-module-0-.*
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|>   Node: md5 Value: 3a8cde3348dc3549d973b7ca377a639c
+2020-09-18T13:36:45.634919Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-scalac-config-0/coverity_config.xml
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>         Node: comp_name Value: scalac
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>         Node: comp_translator Value: scalac
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>         Node: comp_lang Value: Scala
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>         Node: comp_generic Value: scala
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>         Node: id Value: scalac-scalac-.*
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|>   Node: md5 Value: 72f6e51a33977034a91c37366e5501cc
+2020-09-18T13:36:45.634943Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|> Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/template-scala-config-0/coverity_config.xml
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|> Node: coverity
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>   Node: cit_version Value: 1
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>   Node: config
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>     Node: build
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>       Node: compiler
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>         Node: template_compiler Value: true
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>         Node: comp_name Value: scala
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>         Node: comp_translator Value: scala
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>         Node: comp_lang Value: Scala
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>         Node: comp_generic Value: scala
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>       Node: options
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>         Node: id Value: scala-scala-.*
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>         Node: begin_command_line_config
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|>   Node: md5 Value: 06e293540a5f4dc8f97f0f06a6021b74
+2020-09-18T13:36:45.634966Z|cov-build|10413|info|> 
+2020-09-18T13:36:45.636008Z|cov-build|10413|info|> Using LD_PRELOAD = /home/ala/cov-analysis-linux64-2020.06/bin/libcapture-linux64-${PLATFORM}.so
+[10416] EXECUTING: make
+[10417] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -S/home/ala/CLionProjects/untitled -B/home/ala/CLionProjects/untitled --check-build-system CMakeFiles/Makefile.cmake 0
+[10418] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_progress_start /home/ala/CLionProjects/untitled/CMakeFiles /home/ala/CLionProjects/untitled/CMakeFiles/progress.marks
+[10419] EXECUTING: make -s -f CMakeFiles/Makefile2 all
+[10420] EXECUTING: make -s -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/depend
+[10421] EXECUTING: /bin/sh -c "cd /home/ala/CLionProjects/untitled && /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_depends "Unix Makefiles" /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled/CMakeFiles/untitled.dir/DependInfo.cmake --color="
+[10422] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_depends "Unix Makefiles" /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled/CMakeFiles/untitled.dir/DependInfo.cmake --color=
+[10423] EXECUTING: make -s -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
+[10424] EXECUTING: /bin/sh -c "/home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/untitled.dir/main.cpp.o""
+[10425] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
+[10426] EXECUTING: /usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/untitled.dir/main.cpp.o -c /home/ala/CLionProjects/untitled/main.cpp
+[10427] CWD: /home/ala/CLionProjects/untitled
+[10427] COMPILING: /home/ala/cov-analysis-linux64-2020.06/bin/cov-translate /usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/untitled.dir/main.cpp.o -c /home/ala/CLionProjects/untitled/main.cpp
+Encountered compiler invocation for first time, configuring it: /usr/bin/x86_64-linux-gnu-g++-7 -std=gnu++11
+* Configuring /usr/bin/g++ as a C++ compiler
+[STATUS] g++-config-0: Running sanity tests on native compiler
+[STATUS] g++-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\
+[STATUS] g++-config-0: Retrieving values for macros
+* Configuring /usr/bin/g++ as a C compiler
+[STATUS] g++cc-config-0: Running sanity tests on native compiler
+[STATUS] g++cc-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+[STATUS] g++cc-config-0: Retrieving values for macros
+Added template compiler configuration instance /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/coverity_config.xml
+Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity_config.xml
+    Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++cc-config-0/coverity_config.xml
+Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: g++
+        Node: comp_name Value: g++-7
+        Node: comp_name Value: x86_64-linux-gnu-g++-7
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_cxx Value: true
+        Node: comp_next_type Value: g++cc
+        Node: comp_generic Value: gnu
+        Node: comp_require Value: -std=gnu++11
+        Node: id Value: g++-g++-7.5.0-4dfc23733e2470df29097c4a73acf564-0
+        Node: version Value: 7.5.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++-g++-7.5.0-4dfc23733e2470df29097c4a73acf564-0
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+        Node: template_config_option_id Value: g++-g++-.*
+        Node: sysinclude_dir Value: /usr/include/c++/7
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu/c++/7
+        Node: sysinclude_dir Value: /usr/include/c++/7/backward
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+        Node: sysinclude_dir Value: /usr/include
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -xc++
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_compile_switch Value: -C
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity-compiler-compat.h
+        Node: macro_pre_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity-macro-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --add_type_modifier=__coverity_float
+        Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 7.5.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_keyword
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --enable_80bit_float
+        Node: prepend_arg Value: --enable_128bit_float
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --exceptions
+        Node: prepend_arg Value: --arg_dependent_overload
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --has_include_macro
+        Node: prepend_arg Value: --has_include_next_macro
+        Node: prepend_arg Value: --has_cpp_attribute_macro
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_arg Value: --help
+        Node: skip_arg Value: --target-help
+        Node: skip_arg Value: -dumpspecs
+        Node: skip_arg Value: -dumpversion
+        Node: skip_arg Value: -dumpmachine
+        Node: skip_arg Value: -print-search-dirs
+        Node: skip_arg Value: -print-libgcc-file-name
+        Node: skip_arg Value: -print-multiarch
+        Node: skip_arg Value: -print-multi-directory
+        Node: skip_arg Value: -print-multi-lib
+        Node: skip_arg Value: -print-multi-os-directory
+        Node: skip_arg Value: -print-sysroot
+        Node: skip_arg Value: -print-sysroot-headers-suffix
+        Node: skip_arg Value: -dumpfullversion
+        Node: skip_arg_regex Value: --help=.*
+        Node: skip_arg_regex Value: -print-file-name=.*
+        Node: skip_arg_regex Value: -print-prog-name=.*
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+        Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/../user_nodefs.h
+        Node: pch_options
+          Node: archetype Value: gcc
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c++
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: begin_command_line_config
+  Node: md5 Value: 6ad824c8cc11407cbbe8bb77afcc2102
+Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++cc-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: g++
+        Node: comp_name Value: g++-7
+        Node: comp_name Value: x86_64-linux-gnu-g++-7
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++cc
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_generic Value: gnu
+        Node: comp_require Value: -std=gnu++11
+        Node: id Value: g++cc-g++-7.5.0-4dfc23733e2470df29097c4a73acf564-0
+        Node: version Value: 7.5.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++cc-g++-7.5.0-4dfc23733e2470df29097c4a73acf564-0
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+        Node: template_config_option_id Value: g++cc-g++-.*
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+        Node: sysinclude_dir Value: /usr/include
+        Node: dryrun_switch Value: -xc
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -xc
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_switch Value: -xc
+        Node: preprocess_compile_switch Value: -C
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++cc-config-0/coverity-compiler-compat.h
+        Node: macro_pre_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++cc-config-0/coverity-macro-compat.h
+        Node: prepend_arg Value: --fixed_point
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --add_type_modifier=__coverity_float
+        Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 7.5.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --restrict
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_type=i
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --c11
+        Node: prepend_arg Value: --enable_80bit_float
+        Node: prepend_arg Value: --enable_128bit_float
+        Node: prepend_arg Value: --allow__bool
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --has_include_macro
+        Node: prepend_arg Value: --has_include_next_macro
+        Node: prepend_arg Value: --has_cpp_attribute_macro
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_arg Value: --help
+        Node: skip_arg Value: --target-help
+        Node: skip_arg Value: -dumpspecs
+        Node: skip_arg Value: -dumpversion
+        Node: skip_arg Value: -dumpmachine
+        Node: skip_arg Value: -print-search-dirs
+        Node: skip_arg Value: -print-libgcc-file-name
+        Node: skip_arg Value: -print-multiarch
+        Node: skip_arg Value: -print-multi-directory
+        Node: skip_arg Value: -print-multi-lib
+        Node: skip_arg Value: -print-multi-os-directory
+        Node: skip_arg Value: -print-sysroot
+        Node: skip_arg Value: -print-sysroot-headers-suffix
+        Node: skip_arg Value: -dumpfullversion
+        Node: skip_arg_regex Value: --help=.*
+        Node: skip_arg_regex Value: -print-file-name=.*
+        Node: skip_arg_regex Value: -print-prog-name=.*
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+        Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++cc-config-0/../user_nodefs.h
+        Node: pch_options
+          Node: archetype Value: gcc
+        Node: pre_trans
+          Node: options
+            Node: pre_prepend_arg Value: -coverity_cxx_suffixes=c;i
+            Node: pre_prepend_arg Value: -coverity_cxx_header_suffixes=h
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: C_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c
+        Node: begin_command_line_config
+  Node: md5 Value: ac6c9045a84a0406b81e9a779d969d0c
+COV_TRANSLATE EXPANDED ARGS: "-g" "-std=gnu++11" "-o" "CMakeFiles/untitled.dir/main.cpp.o" "-c" "/home/ala/CLionProjects/untitled/main.cpp"
+[STATUS] Compiling main.cpp
+/home/ala/cov-analysis-linux64-2020.06/bin/cov-emit --emit_pch_dependencies --dir=/home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --ignore_path=/tmp/cov-ala/68123764746d04c124b6d629e80fda98/cov-configure --ignore_path=/tmp/cov-ala/68123764746d04c124b6d629e80fda98/cov-ala/04288575fa1e853fb99da1fbae039d56 --pre_preinclude /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity-macro-compat.h --pre_preinclude /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity-compiler-compat.h --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --add_type_modifier=__coverity_float --add_type_modifier=__coverity_floatx --no_predefined_feature_test_macros --no_stdarg_builtin --no_predefined_cplusplus -w --no_predefines --comp_ver 7.5.0 --char_bit_size=8 --gnu_carriage_return_line_terminator --wchar_t_keyword --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --macro_stack_pragmas --exceptions --arg_dependent_overload --inline_keyword --has_include_macro --has_include_next_macro --has_cpp_attribute_macro --no_predefines --c++ --no_builtin_emulation --allow_incompat_throw --new_array_args --type_traits_helpers --c++11 --gnu_version 70500 --char16_t_char32_t_types --no_trigraphs --sys_include /usr/include/c++/7 --sys_include /usr/include/x86_64-linux-gnu/c++/7 --sys_include /usr/include/c++/7/backward --sys_include /usr/lib/gcc/x86_64-linux-gnu/7/include --sys_include /usr/local/include --sys_include /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed --sys_include /usr/include/x86_64-linux-gnu --sys_include /usr/include --record_only -D__NO_INLINE__ --type_sizes=e16Pdlx8fiw4s2 --type_alignments=e16Pdlx8fiw4s2 --size_t_type=m --ptrdiff_t_type=l main.cpp 
+[11043] EXECUTING: /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/ala/CLionProjects/untitled/main.cpp -quiet -dumpbase main.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/untitled.dir/main.cpp.o -g -std=gnu++11 -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccOq09NC.s
+[11044] EXECUTING: as --64 -o CMakeFiles/untitled.dir/main.cpp.o /tmp/ccOq09NC.s
+[11045] EXECUTING: /bin/sh -c "/home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=2 "Linking CXX executable untitled""
+[11046] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=2 "Linking CXX executable untitled"
+[11047] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=
+[11048] EXECUTING: /usr/bin/g++ -g CMakeFiles/untitled.dir/main.cpp.o -o untitled
+[11049] CWD: /home/ala/CLionProjects/untitled
+[11049] COMPILING: /home/ala/cov-analysis-linux64-2020.06/bin/cov-translate /usr/bin/g++ -g CMakeFiles/untitled.dir/main.cpp.o -o untitled
+Encountered compiler invocation for first time, configuring it: /usr/bin/x86_64-linux-gnu-g++-7
+* Configuring /usr/bin/g++ as a C++ compiler
+[STATUS] g++-config-0: Running sanity tests on native compiler
+[STATUS] g++-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\
+[STATUS] g++-config-0: Retrieving values for macros
+* Configuring /usr/bin/g++ as a C compiler
+[STATUS] g++cc-config-0: Running sanity tests on native compiler
+[STATUS] g++cc-config-0: Detecting size and alignment of fundamental types.
+Looking for macros in standard headers. This can take a long time.
+[STATUS] g++cc-config-0: Retrieving values for macros
+Added template compiler configuration instance /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/coverity_config.xml
+Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++-config-0/coverity_config.xml
+    Node: include Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++cc-config-0/coverity_config.xml
+Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: g++
+        Node: comp_name Value: g++-7
+        Node: comp_name Value: x86_64-linux-gnu-g++-7
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_cxx Value: true
+        Node: comp_next_type Value: g++cc
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++-g++-7.5.0-2777ab2057b53e166d208217722c4ddf-0
+        Node: version Value: 7.5.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++-g++-7.5.0-2777ab2057b53e166d208217722c4ddf-0
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+        Node: template_config_option_id Value: g++-g++-.*
+        Node: sysinclude_dir Value: /usr/include/c++/7
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu/c++/7
+        Node: sysinclude_dir Value: /usr/include/c++/7/backward
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+        Node: sysinclude_dir Value: /usr/include
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -xc++
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_compile_switch Value: -C
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++-config-0/coverity-compiler-compat.h
+        Node: macro_pre_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++-config-0/coverity-macro-compat.h
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --add_type_modifier=__coverity_float
+        Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 7.5.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=w4xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_keyword
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --enable_80bit_float
+        Node: prepend_arg Value: --enable_128bit_float
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --exceptions
+        Node: prepend_arg Value: --arg_dependent_overload
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --has_include_macro
+        Node: prepend_arg Value: --has_include_next_macro
+        Node: prepend_arg Value: --has_cpp_attribute_macro
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_arg Value: --help
+        Node: skip_arg Value: --target-help
+        Node: skip_arg Value: -dumpspecs
+        Node: skip_arg Value: -dumpversion
+        Node: skip_arg Value: -dumpmachine
+        Node: skip_arg Value: -print-search-dirs
+        Node: skip_arg Value: -print-libgcc-file-name
+        Node: skip_arg Value: -print-multiarch
+        Node: skip_arg Value: -print-multi-directory
+        Node: skip_arg Value: -print-multi-lib
+        Node: skip_arg Value: -print-multi-os-directory
+        Node: skip_arg Value: -print-sysroot
+        Node: skip_arg Value: -print-sysroot-headers-suffix
+        Node: skip_arg Value: -dumpfullversion
+        Node: skip_arg_regex Value: --help=.*
+        Node: skip_arg_regex Value: -print-file-name=.*
+        Node: skip_arg_regex Value: -print-prog-name=.*
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+        Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++-config-0/../user_nodefs.h
+        Node: pch_options
+          Node: archetype Value: gcc
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c++
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: begin_command_line_config
+  Node: md5 Value: ffa1297dc6926c46f57dde60234e9ae9
+Configuration read from: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++cc-config-0/coverity_config.xml
+Node: coverity
+  Node: cit_version Value: 1
+  Node: config
+    Node: build
+      Node: compiler
+        Node: comp_name Value: g++
+        Node: comp_name Value: g++-7
+        Node: comp_name Value: x86_64-linux-gnu-g++-7
+        Node: comp_dir Value: /usr/bin
+        Node: comp_translator Value: g++cc
+        Node: comp_lang Value: C/C++
+        Node: comp_front_end Value: cov-emit
+        Node: comp_desc Value: GNU C++ Compiler
+        Node: comp_generic Value: gnu
+        Node: comp_require
+        Node: id Value: g++cc-g++-7.5.0-2777ab2057b53e166d208217722c4ddf-0
+        Node: version Value: 7.5.0
+        Node: is_compiler Value: true
+        Node: is_linker Value: true
+        Node: target_platform Value: all
+      Node: options
+        Node: id Value: g++cc-g++-7.5.0-2777ab2057b53e166d208217722c4ddf-0
+        Node: instrument_predicates
+          Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+          Node: if
+            Node: conditions
+              Node: or_cond
+                Node: cond
+                  Node: contains_regex Value: (^|\s)[^-]
+                Node: cond
+                  Node: contains_regex Value: (^|\s)\-l
+            Node: then
+              Node: insert
+                Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+                Node: precedes_regex Value: nothing
+        Node: instrument_variable
+          Node: var_name Value: cov_instrument_config_version
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: 3
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_deployment_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_gcc
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+          Node: cond_platform_value
+            Node: platform_name Value: mingw
+            Node: var_value Value: -lci-runtime-x86
+          Node: cond_platform_value
+            Node: platform_name Value: mingw64
+            Node: var_value Value: -lci-runtime-x64
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_header_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+        Node: instrument_variable
+          Node: var_name Value: cov_lib_path
+          Node: cond_platform_value
+            Node: platform_name Value: all
+            Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+        Node: template_config_option_id Value: g++cc-g++-.*
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+        Node: sysinclude_dir Value: /usr/local/include
+        Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+        Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+        Node: sysinclude_dir Value: /usr/include
+        Node: dryrun_switch Value: -xc
+        Node: dryrun_switch Value: -E
+        Node: dryrun_switch Value: -v
+        Node: dump_macros_arg Value: -xc
+        Node: dump_macros_arg Value: -dM
+        Node: dump_macros_arg Value: -E
+        Node: preprocess_remove_arg Value: -o.+
+        Node: preprocess_remove_arg Value: -c
+        Node: preprocess_remove_arg Value: -Werror
+        Node: preprocess_remove_next_arg Value: -o
+        Node: preprocess_switch Value: -E
+        Node: preprocess_switch Value: -U__BLOCKS__
+        Node: preprocess_switch Value: -xc
+        Node: preprocess_compile_switch Value: -C
+        Node: preprocess_output Value: -
+        Node: dryrun_output Value: 2
+        Node: pre_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++cc-config-0/coverity-compiler-compat.h
+        Node: macro_pre_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++cc-config-0/coverity-macro-compat.h
+        Node: prepend_arg Value: --fixed_point
+        Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+        Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+        Node: prepend_arg Value: --add_type_modifier=__coverity_float
+        Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+        Node: prepend_arg Value: --no_predefined_feature_test_macros
+        Node: prepend_arg Value: --no_stdarg_builtin
+        Node: prepend_arg Value: --no_predefined_cplusplus
+        Node: prepend_arg Value: -w
+        Node: prepend_arg Value: --no_predefines
+        Node: prepend_arg Value: --comp_ver
+        Node: prepend_arg Value: 7.5.0
+        Node: prepend_arg Value: --size_t_type=m
+        Node: prepend_arg Value: --ptrdiff_t_type=l
+        Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+        Node: prepend_arg Value: --char_bit_size=8
+        Node: prepend_arg Value: --restrict
+        Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+        Node: prepend_arg Value: --wchar_t_type=i
+        Node: prepend_arg Value: --no_multiline_string
+        Node: prepend_arg Value: --no_trigraphs
+        Node: prepend_arg Value: --ignore_calling_convention
+        Node: prepend_arg Value: --c11
+        Node: prepend_arg Value: --enable_80bit_float
+        Node: prepend_arg Value: --enable_128bit_float
+        Node: prepend_arg Value: --allow__bool
+        Node: prepend_arg Value: --macro_stack_pragmas
+        Node: prepend_arg Value: --inline_keyword
+        Node: prepend_arg Value: --has_include_macro
+        Node: prepend_arg Value: --has_include_next_macro
+        Node: prepend_arg Value: --has_cpp_attribute_macro
+        Node: prepend_arg Value: --no_predefines
+        Node: skip_arg Value: -###
+        Node: skip_arg Value: -E
+        Node: skip_arg Value: -fsyntax-only
+        Node: skip_arg Value: -M
+        Node: skip_arg Value: -MM
+        Node: skip_arg Value: -wrapper
+        Node: skip_arg Value: --version
+        Node: skip_arg Value: --help
+        Node: skip_arg Value: --target-help
+        Node: skip_arg Value: -dumpspecs
+        Node: skip_arg Value: -dumpversion
+        Node: skip_arg Value: -dumpmachine
+        Node: skip_arg Value: -print-search-dirs
+        Node: skip_arg Value: -print-libgcc-file-name
+        Node: skip_arg Value: -print-multiarch
+        Node: skip_arg Value: -print-multi-directory
+        Node: skip_arg Value: -print-multi-lib
+        Node: skip_arg Value: -print-multi-os-directory
+        Node: skip_arg Value: -print-sysroot
+        Node: skip_arg Value: -print-sysroot-headers-suffix
+        Node: skip_arg Value: -dumpfullversion
+        Node: skip_arg_regex Value: --help=.*
+        Node: skip_arg_regex Value: -print-file-name=.*
+        Node: skip_arg_regex Value: -print-prog-name=.*
+        Node: skip_file Value: conftest\.c{1,2}$
+        Node: skip_file Value: conftest\.cpp$
+        Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+        Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++cc-config-0/../user_nodefs.h
+        Node: pch_options
+          Node: archetype Value: gcc
+        Node: pre_trans
+          Node: options
+            Node: pre_prepend_arg Value: -coverity_cxx_suffixes=c;i
+            Node: pre_prepend_arg Value: -coverity_cxx_header_suffixes=h
+        Node: expand
+          Node: options
+            Node: replace_arg_regex
+              Node: replace Value: @(.*)
+              Node: with Value: --coverity_resp_file=$1
+        Node: pre_trans
+          Node: options
+            Node: intern_trans Value: gnu_pre_translate
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: CPATH
+            Node: includes_from_env_var_empty_is_cwd Value: true
+        Node: trans
+          Node: options
+            Node: includes_from_env_var Value: C_INCLUDE_PATH
+            Node: pre_prepend_arg Value: --c
+        Node: begin_command_line_config
+  Node: md5 Value: 1f8d1e33d6113029f79a7012fd716d81
+COV_TRANSLATE EXPANDED ARGS: "-g" "CMakeFiles/untitled.dir/main.cpp.o" "-o" "untitled"
+[11665] EXECUTING: /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOVs6hd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o untitled /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/untitled.dir/main.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+[11666] EXECUTING: /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOVs6hd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o untitled /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/untitled.dir/main.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+[11667] EXECUTING: /bin/sh -c "/home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=1,2 "Built target untitled""
+[11668] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=1,2 "Built target untitled"
+[11669] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_progress_start /home/ala/CLionProjects/untitled/CMakeFiles 0
+2020-09-18T13:36:50.596452Z|cov-build|10413|info|> Invoking cov-security-da with commands: /home/ala/cov-analysis-linux64-2020.06/bin/cov-security-da --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir
+2020-09-18T13:36:50.645591Z|cov-build|10413|info|> Dynamic analyzer took 49 ms
+2020-09-18T13:36:50.645591Z|cov-build|10413|info|> Build time (cov-build overall): 00:00:05.056598
+2020-09-18T13:36:50.645591Z|cov-build|10413|info|> 
+2020-09-18T13:36:50.646066Z|cov-build|10413|info|> Build time (C/C++ emits total): 00:00:04.709776
+2020-09-18T13:36:50.646066Z|cov-build|10413|info|> 
+2020-09-18T13:36:50.646066Z|cov-build|10413|info|> 
+2020-09-18T13:36:50.646092Z|cov-build|10413|info|> Recorded 1 C/C++ compilation units (100%) successfully. These compilation units are ready for replay
+2020-09-18T13:36:50.646092Z|cov-build|10413|info|> 
+2020-09-18T13:36:50.646092Z|cov-build|10413|info|> The cov-build utility completed successfully.

@@ -1,0 +1,31 @@
+{
+  "allSummariesBatchHashes" : [
+    "8e0dbc810227dee4b4a117910c104925",
+    "b91b7f43989756c5d04c49bd171aff16",
+    "bf633375ef1fc2c4d08123ad6995ae33",
+    "cecc603c5b69f11ed736d55a05b1ecab",
+    "d657b5cd925cb8139b697862d9274ff4",
+    "e098e3ac37c302e847bea511ca0fd84a",
+    "e7d81f073a6719b7a552bac0237cfe18",
+    "24b833202ba2d99b2f8bf86f9855acc2",
+    "2e772e659511f9b0b3fc89e713877dcc",
+    "34ed09eeb3801d0fafe84fd02fe2c2b2",
+    "4c5af4cccc613fbfa292e9999baab917",
+    "5a0f69462707164156f4c70913192d7e",
+    "74a6752fff60a97d6a725ff39b818a43"
+  ],
+  "allTUSummariesHashes" : [],
+  "classBatchHashesTopological" : [
+    "cecc603c5b69f11ed736d55a05b1ecab",
+    "e098e3ac37c302e847bea511ca0fd84a",
+    "b91b7f43989756c5d04c49bd171aff16",
+    "bf633375ef1fc2c4d08123ad6995ae33",
+    "d657b5cd925cb8139b697862d9274ff4",
+    "e7d81f073a6719b7a552bac0237cfe18",
+    "24b833202ba2d99b2f8bf86f9855acc2",
+    "74a6752fff60a97d6a725ff39b818a43",
+    "2e772e659511f9b0b3fc89e713877dcc",
+    "4c5af4cccc613fbfa292e9999baab917",
+    "5a0f69462707164156f4c70913192d7e"
+  ]
+}

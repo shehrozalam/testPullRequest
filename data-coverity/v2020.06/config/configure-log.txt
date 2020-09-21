@@ -1,0 +1,11 @@
+Native Compiler and extra args: ./ 
+Working directory: /home/ala/CLionProjects/untitled
+
+find_compiler: in comp_type = scalac sub type =  with generics. comp_name = scalac
+find_compiler: out 1: New Scala Compiler (scalac)
+
+find_compiler: in comp_type =  sub type =  with generics. comp_name = 
+find_compiler: out NULL
+
+find_compiler: in comp_type =  sub type =  with generics. comp_name = 
+find_compiler: out NULL

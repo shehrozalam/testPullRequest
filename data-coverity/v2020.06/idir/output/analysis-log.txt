@@ -1,0 +1,278 @@
+cmdline: command line: /home/ala/cov-analysis-linux64-2020.06/bin/cov-analyze @@/tmp/cov-ala/99ac06dcbcc4918ddf5222cd22a49006/cov-analyze.default.txt 
+cmdline: parsed cmdline: [
+cmdline:   { name: "fb-include", args: [ "coverity-default" ] },
+cmdline:   { name: "aggressiveness-level", args: [ "high" ] },
+cmdline:   { name: "all" },
+cmdline:   { name: "security" },
+cmdline:   { name: "dir", args: [ "/home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir" ] },
+cmdline:   { name: "tmpdir", args: [ "/tmp" ] },
+cmdline:   { name: "no-banner" },
+cmdline:   { name: "security-file", args: [ "/home/ala/cov-analysis-linux64-2020.06/bin/license.dat" ] },
+cmdline:   { name: "persistent-models", args: [ "true" ] },
+cmdline:   { name: "no-whole-program-checkers" },
+cmdline:   { name: "fb-exclude", args: [ "desktop" ] },
+cmdline:   { name: "export-summaries", args: [ "false" ] },
+cmdline:   { name: "noxrefs" },
+cmdline:   { name: "use-desktop-hashes", args: [ "/home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/output/desktop-hashes" ] },
+cmdline:   { name: "strip-path", args: [ "/home/ala/CLionProjects/untitled" ] },
+cmdline:   { name: "ticker-mode", args: [ "none" ] },
+cmdline:   { name: "tu", args: [ "1" ] },
+cmdline:   { name: "enable", args: [ "PARSE_ERROR" ] },
+cmdline:   { name: "force-report-rws" },
+cmdline:   { name: "config", args: [ "/home/ala/cov-analysis-linux64-2020.06/config/coverity_config.xml" ] },
+cmdline: ]
+startup: am_pid=11750
+startup: detected platform: Linux 5.4.0-47-generic x86_64
+startup: target platform: linux64
+startup: Detected 1 logical cpus
+startup: Detected 1 cpu cores
+startup: host name: ala-VirtualBox
+startup: user name: ala
+startup: Analysis version: 2020.06 (6fbf2d48ad p-trail-push-1389)
+startup: temp directory: /tmp/cov-ala/827141f998e8d9bad0d6fae5cc4c161a
+startup: enable_constraint_fpp=0
+startup: current time: 2020-Sep-18 15:38:07
+startup: Detected amount of memory: 24279408kb
+startup: Limiting memory to 21851467kb
+wlink: Identifying web applications
+wlink: Linking web-app archive bytecode
+emitdb: callgraph.cpp:3036 11111111
+emitdb: callgraph.cpp:3066 11000011
+emitdb: callgraph.cpp:3086 11000011
+directives: ===== User directives:
+directives: === Language: cpp
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cs
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cuda
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: fortran
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: go
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: java
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: javascript
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: kotlin
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: objc
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: php
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: python2
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: python3
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: ruby
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: scala
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: swift
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: text-files
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: typescript
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: vb
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+rta: Not running RTA because it doesn't apply to current languages
+directives: Optimizing dataflow configuration
+directives: Optimizing dataflow configuration
+emitdb: callgraph.cpp:3227 11000000
+dyncg: N/A or no data
+general: Starting analysis
+dm-access-lib: AM listening for DM at 127.0.0.1:38911
+dm-access-lib: AM starting DM with command line: /home/ala/cov-analysis-linux64-2020.06/bin/cov-internal-dm --AM-port 38911 --log-file /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/output/distributor.log -j 1 --AW-timeout 36000 /home/ala/cov-analysis-linux64-2020.06/bin/cov-analyze --worker --message-size-limit 104857600
+dm-access-lib: DM started: dm_pid=11752
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:38911 - 127.0.0.1:53072 (remote)
+makeWUP: ENABLE_ONLY0
+makeWUP: stat0
+makeWUP: stat2
+makeWUP: stat1
+makeWUP: stat3
+makeWUP: stat4
+makeWUP: conc0
+makeWUP: conc2
+makeWUP: conc6
+makeWUP: conc14
+makeWUP: conc30
+makeWUP: conc51
+makeWUP: conc50
+makeWUP: conc49
+makeWUP: conc48
+makeWUP: conc47
+makeWUP: conc46
+makeWUP: conc45
+makeWUP: conc44
+makeWUP: conc43
+makeWUP: conc42
+makeWUP: conc41
+makeWUP: conc40
+makeWUP: conc39
+makeWUP: conc38
+makeWUP: conc37
+makeWUP: conc36
+makeWUP: conc35
+makeWUP: conc34
+makeWUP: conc33
+makeWUP: conc32
+makeWUP: conc29
+makeWUP: conc31
+makeWUP: conc28
+makeWUP: conc27
+makeWUP: conc26
+makeWUP: conc25
+makeWUP: conc24
+makeWUP: conc23
+makeWUP: conc22
+makeWUP: conc21
+makeWUP: conc20
+makeWUP: conc19
+makeWUP: conc18
+makeWUP: conc17
+makeWUP: conc16
+makeWUP: conc13
+makeWUP: conc15
+makeWUP: conc12
+makeWUP: conc11
+makeWUP: conc10
+makeWUP: conc9
+makeWUP: conc8
+makeWUP: conc5
+makeWUP: conc7
+makeWUP: conc4
+makeWUP: conc1
+makeWUP: conc3
+makeWUP: conc52
+makeWUP: conc58
+makeWUP: conc61
+makeWUP: conc62
+makeWUP: conc60
+makeWUP: conc56
+makeWUP: conc65
+makeWUP: conc54
+makeWUP: conc59
+makeWUP: conc53
+makeWUP: conc57
+makeWUP: conc63
+makeWUP: conc66
+makeWUP: conc64
+makeWUP: conc55
+makeWUP: conc67
+makeWUP: conctd0
+makeWUP: conctd2
+makeWUP: conctd1
+makeWUP: conctd9
+makeWUP: conctd4
+makeWUP: conctd11
+makeWUP: conctd6
+makeWUP: conctd10
+makeWUP: conctd3
+makeWUP: conctd8
+makeWUP: conctd12
+makeWUP: conctd7
+makeWUP: conctd13
+makeWUP: conctd5
+makeWUP: conctd14
+makeWUP: conctd66
+makeWUP: conctd65
+makeWUP: conctd61
+makeWUP: conctd53
+makeWUP: conctd37
+makeWUP: conctd15
+makeWUP: conctd16
+makeWUP: conctd17
+makeWUP: conctd18
+makeWUP: conctd19
+makeWUP: conctd20
+makeWUP: conctd21
+makeWUP: conctd22
+makeWUP: conctd23
+makeWUP: conctd24
+makeWUP: conctd25
+makeWUP: conctd26
+makeWUP: conctd27
+makeWUP: conctd28
+makeWUP: conctd29
+makeWUP: conctd30
+makeWUP: conctd31
+makeWUP: conctd32
+makeWUP: conctd33
+makeWUP: conctd34
+makeWUP: conctd35
+makeWUP: conctd38
+makeWUP: conctd54
+makeWUP: conctd40
+makeWUP: conctd39
+makeWUP: conctd41
+makeWUP: conctd42
+makeWUP: conctd43
+makeWUP: conctd44
+makeWUP: conctd45
+makeWUP: conctd46
+makeWUP: conctd47
+makeWUP: conctd48
+makeWUP: conctd49
+makeWUP: conctd50
+makeWUP: conctd51
+makeWUP: conctd36
+makeWUP: conctd62
+makeWUP: conctd56
+makeWUP: conctd55
+makeWUP: conctd57
+makeWUP: conctd58
+makeWUP: conctd59
+makeWUP: conctd52
+makeWUP: conctd64
+makeWUP: conctd60
+makeWUP: conctd63
+makeWUP: PER_TU0
+makeWUP: conctd67
+makeWUP: gen0
+makeWUP: gen1
+makeWUP: gen2
+makeWUP: gen3
+makeWUP: PER_TU1
+makeWUP: gen4
+summary: Analysis summary report:
+summary: ------------------------
+summary: Files analyzed                 : 9 Total
+summary:     C++                        : 9
+summary: Total LoC input to cov-analyze : 28901
+summary: Functions analyzed             : 14
+summary: Classes/structs analyzed       : 11
+summary: Paths analyzed                 : 21
+summary: Time taken by analysis         : 00:00:01
+summary: Defect occurrences found       : 8 Total
+summary:                                  1 PW.DECLARED_BUT_NOT_REFERENCED
+summary:                                  5 UNINIT
+summary:                                  2 USE_AFTER_FREE
+summary: TU Language    Capture    TU Count
+summary: -----------    -------    --------
+summary: C++            Build         9
+summary: Number of functions: 67
+summary: out_of_memory count: 0
+summary: paths_exceeded count: 0
+summary: recoverable failures: 0
+mem: AM peak mem bytes: 215625728
+assert: suppressed asserts: workers=0, master=0
+failures: recoverable failures: workers=0, master=0

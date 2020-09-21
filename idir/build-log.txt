@@ -1,0 +1,1077 @@
+2020-09-18T13:11:14.311065Z|cov-build|10016|info|> cov-build 2020.06 (build 6fbf2d48ad p-trail-push-1389)
+2020-09-18T13:11:14.311086Z|cov-build|10016|info|> Coverity Build Capture (64-bit) version 2020.06 on Linux 5.4.0-47-generic x86_64
+2020-09-18T13:11:14.311086Z|cov-build|10016|info|> Internal version numbers: 6fbf2d48ad p-trail-push-1389
+2020-09-18T13:11:14.311086Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311100Z|cov-build|10016|info|> Dumping from hostname : ala-VirtualBox
+2020-09-18T13:11:14.311100Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311103Z|cov-build|10016|info|> Platform info:
+2020-09-18T13:11:14.311103Z|cov-build|10016|info|> Sysname = Linux
+2020-09-18T13:11:14.311103Z|cov-build|10016|info|> Release = 5.4.0-47-generic
+2020-09-18T13:11:14.311103Z|cov-build|10016|info|> Machine = x86_64
+2020-09-18T13:11:14.311103Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311103Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311112Z|cov-build|10016|info|> cov-build command: cov-build --dir idir --config ./cov-config/cfg.xml make 
+2020-09-18T13:11:14.311116Z|cov-build|10016|info|> cov-build expanded command: cov-build --dir idir --config ./cov-config/cfg.xml make 
+2020-09-18T13:11:14.311206Z|cov-build|10016|info|> build command: /usr/bin/make
+2020-09-18T13:11:14.311211Z|cov-build|10016|info|> thunk command: /home/ala/cov-analysis-linux64-2020.06/bin/cov-internal-thunk.sh make
+2020-09-18T13:11:14.311211Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311216Z|cov-build|10016|info|> Set UseSharedCompilation to false.
+2020-09-18T13:11:14.311221Z|cov-build|10016|info|> Set COVERITY_BIN to /home/ala/cov-analysis-linux64-2020.06/bin
+2020-09-18T13:11:14.311228Z|cov-build|10016|info|> Set COVERITY_SITE_CC to g++;g++-3;g++-4;gcc;gcc-3;gcc-4;ld
+2020-09-18T13:11:14.311231Z|cov-build|10016|info|> Set COVERITY_SITE_CC_CAPTURE_DESCENDANTS to 
+2020-09-18T13:11:14.311235Z|cov-build|10016|info|> Set COVERITY_TEMP to /tmp/cov-ala/f56e5c1eeba83577682aeacc0bec8e02
+2020-09-18T13:11:14.311240Z|cov-build|10016|info|> Set COVERITY_COMMON_TEMP to /tmp
+2020-09-18T13:11:14.311245Z|cov-build|10016|info|> Set COVERITY_IDIR to /home/ala/CLionProjects/untitled/idir
+2020-09-18T13:11:14.311255Z|cov-build|10016|info|> Set COVERITY_OUTPUT to /home/ala/CLionProjects/untitled/idir/build-log.txt
+2020-09-18T13:11:14.311258Z|cov-build|10016|info|> Set COVERITY_LOG to /home/ala/CLionProjects/untitled/idir/build-log.txt
+2020-09-18T13:11:14.311263Z|cov-build|10016|info|> Set COVERITY_OUTPUT_ENCODING to UTF-8
+2020-09-18T13:11:14.311266Z|cov-build|10016|info|> Set COVERITY_SYSTEM_ENCODING to UTF-8
+2020-09-18T13:11:14.311270Z|cov-build|10016|info|> Set COVERITY_EMIT to /home/ala/CLionProjects/untitled/idir/emit
+2020-09-18T13:11:14.311282Z|cov-build|10016|info|> Set COVERITY_IS_COMPILER to 0
+2020-09-18T13:11:14.311284Z|cov-build|10016|info|> Set COVERITY_TOP_PROCESS to 0
+2020-09-18T13:11:14.311286Z|cov-build|10016|info|> Set COVERITY_IS_COMPILER_DESCENDANT to 0
+2020-09-18T13:11:14.311288Z|cov-build|10016|info|> Set COVERITY_DISENGAGE_EXES to "qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64"
+2020-09-18T13:11:14.311299Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311299Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311299Z|cov-build|10016|info|> Dumping configuration:
+2020-09-18T13:11:14.311299Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311305Z|cov-build|10016|info|> User/default configuration:
+2020-09-18T13:11:14.311305Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311308Z|cov-build|10016|info|> Configuration read from: command-line
+2020-09-18T13:11:14.311308Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.311308Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.311308Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/cov-config/cfg.xml
+2020-09-18T13:11:14.311308Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.311308Z|cov-build|10016|info|>     Node: prevent
+2020-09-18T13:11:14.311308Z|cov-build|10016|info|>       Node: dir Value: /home/ala/CLionProjects/untitled/idir
+2020-09-18T13:11:14.311308Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/cov-config/cfg.xml
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-0/coverity_config.xml
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-0/coverity_config.xml
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-1/coverity_config.xml
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-2/coverity_config.xml
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-1/coverity_config.xml
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-2/coverity_config.xml
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/cov-config/template-ld-config-0/coverity_config.xml
+2020-09-18T13:11:14.311324Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-0/coverity_config.xml
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: template_compiler Value: true
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: comp_name Value: gcc
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: comp_translator Value: gcc
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: id Value: gcc-gcc-.*
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-0/../user_nodefs.h
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: id Value: g++-gcc-.*
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-0/../user_nodefs.h
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: id Value: g++cc-gcc-.*
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-0/../user_nodefs.h
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|>   Node: md5 Value: 220ab2f621b426ef21b5bff0d14bd626
+2020-09-18T13:11:14.311342Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-0/coverity_config.xml
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>         Node: template_compiler Value: true
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>         Node: comp_name Value: g++
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>         Node: comp_translator Value: g++
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>         Node: id Value: g++-g++-.*
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-0/../user_nodefs.h
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>         Node: id Value: g++cc-g++-.*
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-0/../user_nodefs.h
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|>   Node: md5 Value: d8da15d655e23f85d5c6ae35de65d439
+2020-09-18T13:11:14.311411Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-1/coverity_config.xml
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: template_compiler Value: true
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: comp_name Value: gcc-3
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: comp_translator Value: gcc
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: id Value: gcc-gcc-3-.*
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-1/../user_nodefs.h
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: id Value: g++-gcc-3-.*
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-1/../user_nodefs.h
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: id Value: g++cc-gcc-3-.*
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-1/../user_nodefs.h
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|>   Node: md5 Value: 6a6dc6f1a6c9360514c721c673fa1951
+2020-09-18T13:11:14.311441Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-2/coverity_config.xml
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: template_compiler Value: true
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: comp_name Value: gcc-4
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: comp_translator Value: gcc
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: id Value: gcc-gcc-4-.*
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-2/../user_nodefs.h
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: id Value: g++-gcc-4-.*
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-2/../user_nodefs.h
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: id Value: g++cc-gcc-4-.*
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-gcc-config-2/../user_nodefs.h
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|>   Node: md5 Value: 6f1a220d892e908cc9817e94bdeb7bc5
+2020-09-18T13:11:14.311477Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-1/coverity_config.xml
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>         Node: template_compiler Value: true
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>         Node: comp_name Value: g++-3
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>         Node: comp_translator Value: g++
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>         Node: id Value: g++-g++-3-.*
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-1/../user_nodefs.h
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>         Node: id Value: g++cc-g++-3-.*
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-1/../user_nodefs.h
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|>   Node: md5 Value: ada4013796c1b19ed1fe7ebb4197cd2d
+2020-09-18T13:11:14.311512Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-2/coverity_config.xml
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>         Node: template_compiler Value: true
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>         Node: comp_name Value: g++-4
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>         Node: comp_translator Value: g++
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>         Node: id Value: g++-g++-4-.*
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-2/../user_nodefs.h
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>         Node: id Value: g++cc-g++-4-.*
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-g++-config-2/../user_nodefs.h
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|>   Node: md5 Value: deb1268a1fd912fa66d290aac3a8d6e1
+2020-09-18T13:11:14.311543Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/cov-config/template-ld-config-0/coverity_config.xml
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>         Node: template_compiler Value: true
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>         Node: comp_name Value: ld
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>         Node: comp_translator Value: ld
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>         Node: id Value: ld-ld-.*
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/cov-config/template-ld-config-0/../user_nodefs.h
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|>   Node: md5 Value: a31ebdf549aecdabc7c15e5c23be5e63
+2020-09-18T13:11:14.311574Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.316821Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.316821Z|cov-build|10016|info|> Cached template configuration instances:
+2020-09-18T13:11:14.316821Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.316836Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/549d4dac35b53743389e6b24dbe97f0c/coverity_config.xml
+2020-09-18T13:11:14.316836Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.316836Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.316836Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.316836Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/549d4dac35b53743389e6b24dbe97f0c/ld-config-0/coverity_config.xml
+2020-09-18T13:11:14.316836Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/549d4dac35b53743389e6b24dbe97f0c/ld-config-0/coverity_config.xml
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: comp_name Value: ld
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: comp_name Value: x86_64-linux-gnu-ld
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: comp_name Value: x86_64-linux-gnu-ld.bfd
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: comp_dir Value: /usr/bin
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: comp_translator Value: ld
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: comp_front_end Value: cov-emit
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: comp_desc Value: GNU C/C++ Linker
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: comp_cxx Value: true
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: comp_require
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: id Value: ld-ld-549d4dac35b53743389e6b24dbe97f0c-0
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: is_compiler Value: false
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: is_linker Value: true
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: id Value: ld-ld-549d4dac35b53743389e6b24dbe97f0c-0
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: instrument_predicates
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: if
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: conditions
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>               Node: cond
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>                 Node: contains_regex Value: (^|\s)(\-Ur|\-r|\-\-relocatable|\-i)(\s|$)
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: then
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: elif
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: conditions
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>               Node: cond
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>                 Node: contains_regex Value: /crtend\.o(\s|$)
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: then
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>               Node: insert
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>                 Node: insertion_string Value: -L[[:cov_lib_path:]] -rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_ld:]] 
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>                 Node: precedes_regex Value: /crtend\.o(\s|$)
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: elif
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: conditions
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>               Node: cond
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>                 Node: contains_regex Value: \-lc\b
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: then
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>               Node: insert
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>                 Node: insertion_string Value: -L[[:cov_lib_path:]] -rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_ld:]] 
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>                 Node: follows_regex Value: \-lc\b
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: else
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: insert
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>               Node: insertion_string Value: -L[[:cov_lib_path:]] -rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_ld:]] 
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>               Node: precedes_regex Value: nothing
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: var_name Value: cov_instrument_config_version
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: var_value Value: 3
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_deployment_path
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_gcc
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: platform_name Value: mingw
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x86
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: platform_name Value: mingw64
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x64
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_header_path
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_ld
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime --no-as-needed -lpthread -lrt -lc
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: platform_name Value: mingw
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x86
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: platform_name Value: mingw64
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x64
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_path
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: template_config_option_id Value: ld-ld-.*
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|>   Node: md5 Value: 7aa69920d61803249f2c4c9d379e1423
+2020-09-18T13:11:14.316847Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.316982Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/coverity_config.xml
+2020-09-18T13:11:14.316982Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.316982Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.316982Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.316982Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++-config-0/coverity_config.xml
+2020-09-18T13:11:14.316982Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++cc-config-0/coverity_config.xml
+2020-09-18T13:11:14.316982Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++-config-0/coverity_config.xml
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_name Value: g++
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_name Value: g++-7
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_name Value: x86_64-linux-gnu-g++-7
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_dir Value: /usr/bin
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_translator Value: g++
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_front_end Value: cov-emit
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_desc Value: GNU C++ Compiler
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_cxx Value: true
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_next_type Value: g++cc
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: comp_require
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: id Value: g++-g++-7.5.0-2777ab2057b53e166d208217722c4ddf-0
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: version Value: 7.5.0
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: is_compiler Value: true
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: is_linker Value: true
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: target_platform Value: all
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: id Value: g++-g++-7.5.0-2777ab2057b53e166d208217722c4ddf-0
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: instrument_predicates
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: if
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: conditions
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>               Node: or_cond
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>                 Node: cond
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>                   Node: contains_regex Value: (^|\s)[^-]
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>                 Node: cond
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>                   Node: contains_regex Value: (^|\s)\-l
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: then
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>               Node: insert
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>                 Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>                 Node: precedes_regex Value: nothing
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: var_name Value: cov_instrument_config_version
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: var_value Value: 3
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_deployment_path
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_gcc
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: platform_name Value: mingw
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x86
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: platform_name Value: mingw64
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x64
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_header_path
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_path
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: template_config_option_id Value: g++-g++-.*
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include/c++/7
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu/c++/7
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include/c++/7/backward
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/local/include
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: dryrun_switch Value: -E
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: dryrun_switch Value: -v
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: dump_macros_arg Value: -dM
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: dump_macros_arg Value: -E
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -o.+
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -c
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -Werror
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: preprocess_remove_next_arg Value: -o
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: preprocess_switch Value: -xc++
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: preprocess_switch Value: -E
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: preprocess_switch Value: -U__BLOCKS__
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: preprocess_compile_switch Value: -C
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: preprocess_output Value: -
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: dryrun_output Value: 2
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: pre_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++-config-0/coverity-compiler-compat.h
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: macro_pre_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++-config-0/coverity-macro-compat.h
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_float
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefined_feature_test_macros
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_stdarg_builtin
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefined_cplusplus
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: -w
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefines
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --comp_ver
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: 7.5.0
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --size_t_type=m
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --ptrdiff_t_type=l
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --type_sizes=w4xl8i4s2e16d8f4P8
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --type_alignments=w4xl8i4s2e16d8f4P8
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --char_bit_size=8
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --wchar_t_keyword
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_multiline_string
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_trigraphs
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --ignore_calling_convention
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --enable_80bit_float
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --enable_128bit_float
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --macro_stack_pragmas
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --exceptions
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --arg_dependent_overload
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --inline_keyword
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_include_macro
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_include_next_macro
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_cpp_attribute_macro
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefines
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -###
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -E
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -fsyntax-only
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -M
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -MM
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -wrapper
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: --version
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: --help
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: --target-help
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpspecs
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpversion
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpmachine
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -print-search-dirs
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -print-libgcc-file-name
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multiarch
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-directory
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-lib
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-os-directory
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -print-sysroot
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -print-sysroot-headers-suffix
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpfullversion
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg_regex Value: --help=.*
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg_regex Value: -print-file-name=.*
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_arg_regex Value: -print-prog-name=.*
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_file Value: conftest\.cpp$
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++-config-0/../user_nodefs.h
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: pch_options
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: archetype Value: gcc
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: trans
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: pre_prepend_arg Value: --c++
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: expand
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: replace_arg_regex
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>               Node: replace Value: @(.*)
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>               Node: with Value: --coverity_resp_file=$1
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: pre_trans
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: intern_trans Value: gnu_pre_translate
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: trans
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: includes_from_env_var Value: CPATH
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>             Node: includes_from_env_var_empty_is_cwd Value: true
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|>   Node: md5 Value: ffa1297dc6926c46f57dde60234e9ae9
+2020-09-18T13:11:14.316993Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++cc-config-0/coverity_config.xml
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: comp_name Value: g++
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: comp_name Value: g++-7
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: comp_name Value: x86_64-linux-gnu-g++-7
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: comp_dir Value: /usr/bin
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: comp_translator Value: g++cc
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: comp_front_end Value: cov-emit
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: comp_desc Value: GNU C++ Compiler
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: comp_require
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: id Value: g++cc-g++-7.5.0-2777ab2057b53e166d208217722c4ddf-0
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: version Value: 7.5.0
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: is_compiler Value: true
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: is_linker Value: true
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: target_platform Value: all
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: id Value: g++cc-g++-7.5.0-2777ab2057b53e166d208217722c4ddf-0
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: instrument_predicates
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: if
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: conditions
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>               Node: or_cond
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>                 Node: cond
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>                   Node: contains_regex Value: (^|\s)[^-]
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>                 Node: cond
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>                   Node: contains_regex Value: (^|\s)\-l
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: then
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>               Node: insert
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>                 Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>                 Node: precedes_regex Value: nothing
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: var_name Value: cov_instrument_config_version
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: var_value Value: 3
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_deployment_path
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_gcc
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: platform_name Value: mingw
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x86
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: platform_name Value: mingw64
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x64
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_header_path
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_path
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: template_config_option_id Value: g++cc-g++-.*
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/local/include
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: dryrun_switch Value: -xc
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: dryrun_switch Value: -E
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: dryrun_switch Value: -v
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: dump_macros_arg Value: -xc
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: dump_macros_arg Value: -dM
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: dump_macros_arg Value: -E
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -o.+
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -c
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -Werror
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: preprocess_remove_next_arg Value: -o
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: preprocess_switch Value: -E
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: preprocess_switch Value: -U__BLOCKS__
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: preprocess_switch Value: -xc
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: preprocess_compile_switch Value: -C
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: preprocess_output Value: -
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: dryrun_output Value: 2
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: pre_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++cc-config-0/coverity-compiler-compat.h
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: macro_pre_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++cc-config-0/coverity-macro-compat.h
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --fixed_point
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_float
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefined_feature_test_macros
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_stdarg_builtin
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefined_cplusplus
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: -w
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefines
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --comp_ver
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: 7.5.0
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --size_t_type=m
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --ptrdiff_t_type=l
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --char_bit_size=8
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --restrict
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --wchar_t_type=i
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_multiline_string
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_trigraphs
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --ignore_calling_convention
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --c11
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --enable_80bit_float
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --enable_128bit_float
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --allow__bool
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --macro_stack_pragmas
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --inline_keyword
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_include_macro
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_include_next_macro
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_cpp_attribute_macro
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefines
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -###
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -E
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -fsyntax-only
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -M
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -MM
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -wrapper
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: --version
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: --help
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: --target-help
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpspecs
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpversion
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpmachine
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -print-search-dirs
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -print-libgcc-file-name
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multiarch
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-directory
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-lib
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-os-directory
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -print-sysroot
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -print-sysroot-headers-suffix
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpfullversion
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg_regex Value: --help=.*
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg_regex Value: -print-file-name=.*
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_arg_regex Value: -print-prog-name=.*
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_file Value: conftest\.cpp$
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/g++cc-config-0/../user_nodefs.h
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: pch_options
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: archetype Value: gcc
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: pre_trans
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: pre_prepend_arg Value: -coverity_cxx_suffixes=c;i
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: pre_prepend_arg Value: -coverity_cxx_header_suffixes=h
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: expand
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: replace_arg_regex
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>               Node: replace Value: @(.*)
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>               Node: with Value: --coverity_resp_file=$1
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: pre_trans
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: intern_trans Value: gnu_pre_translate
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: trans
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: includes_from_env_var Value: CPATH
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: includes_from_env_var_empty_is_cwd Value: true
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: trans
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: includes_from_env_var Value: C_INCLUDE_PATH
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>             Node: pre_prepend_arg Value: --c
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|>   Node: md5 Value: 1f8d1e33d6113029f79a7012fd716d81
+2020-09-18T13:11:14.317245Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.317532Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/coverity_config.xml
+2020-09-18T13:11:14.317532Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.317532Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.317532Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.317532Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity_config.xml
+2020-09-18T13:11:14.317532Z|cov-build|10016|info|>     Node: include Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++cc-config-0/coverity_config.xml
+2020-09-18T13:11:14.317532Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity_config.xml
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_name Value: g++
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_name Value: g++-7
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_name Value: x86_64-linux-gnu-g++-7
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_dir Value: /usr/bin
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_translator Value: g++
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_front_end Value: cov-emit
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_desc Value: GNU C++ Compiler
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_cxx Value: true
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_next_type Value: g++cc
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: comp_require Value: -std=gnu++11
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: id Value: g++-g++-7.5.0-4dfc23733e2470df29097c4a73acf564-0
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: version Value: 7.5.0
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: is_compiler Value: true
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: is_linker Value: true
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: target_platform Value: all
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: id Value: g++-g++-7.5.0-4dfc23733e2470df29097c4a73acf564-0
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: instrument_predicates
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: if
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: conditions
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>               Node: or_cond
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>                 Node: cond
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>                   Node: contains_regex Value: (^|\s)[^-]
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>                 Node: cond
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>                   Node: contains_regex Value: (^|\s)\-l
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: then
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>               Node: insert
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>                 Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>                 Node: precedes_regex Value: nothing
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: var_name Value: cov_instrument_config_version
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: var_value Value: 3
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_deployment_path
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_gcc
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: platform_name Value: mingw
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x86
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: platform_name Value: mingw64
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x64
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_header_path
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_path
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: template_config_option_id Value: g++-g++-.*
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include/c++/7
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu/c++/7
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include/c++/7/backward
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/local/include
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: dryrun_switch Value: -E
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: dryrun_switch Value: -v
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: dump_macros_arg Value: -dM
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: dump_macros_arg Value: -E
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -o.+
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -c
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -Werror
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: preprocess_remove_next_arg Value: -o
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: preprocess_switch Value: -xc++
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: preprocess_switch Value: -E
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: preprocess_switch Value: -U__BLOCKS__
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: preprocess_compile_switch Value: -C
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: preprocess_output Value: -
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: dryrun_output Value: 2
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: pre_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity-compiler-compat.h
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: macro_pre_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity-macro-compat.h
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_float
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefined_feature_test_macros
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_stdarg_builtin
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefined_cplusplus
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: -w
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefines
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --comp_ver
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: 7.5.0
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --size_t_type=m
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --ptrdiff_t_type=l
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --type_sizes=w4xl8i4s2e16d8f4P8
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --type_alignments=w4xl8i4s2e16d8f4P8
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --char_bit_size=8
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --wchar_t_keyword
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_multiline_string
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_trigraphs
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --ignore_calling_convention
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --enable_80bit_float
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --enable_128bit_float
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --macro_stack_pragmas
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --exceptions
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --arg_dependent_overload
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --inline_keyword
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_include_macro
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_include_next_macro
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_cpp_attribute_macro
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefines
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -###
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -E
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -fsyntax-only
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -M
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -MM
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -wrapper
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: --version
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: --help
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: --target-help
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpspecs
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpversion
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpmachine
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -print-search-dirs
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -print-libgcc-file-name
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multiarch
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-directory
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-lib
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-os-directory
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -print-sysroot
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -print-sysroot-headers-suffix
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpfullversion
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg_regex Value: --help=.*
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg_regex Value: -print-file-name=.*
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_arg_regex Value: -print-prog-name=.*
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_file Value: conftest\.cpp$
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/../user_nodefs.h
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: pch_options
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: archetype Value: gcc
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: trans
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: pre_prepend_arg Value: --c++
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: expand
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: replace_arg_regex
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>               Node: replace Value: @(.*)
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>               Node: with Value: --coverity_resp_file=$1
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: pre_trans
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: intern_trans Value: gnu_pre_translate
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: trans
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: includes_from_env_var Value: CPATH
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>             Node: includes_from_env_var_empty_is_cwd Value: true
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|>   Node: md5 Value: 6ad824c8cc11407cbbe8bb77afcc2102
+2020-09-18T13:11:14.317544Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|> Configuration read from: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++cc-config-0/coverity_config.xml
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|> Node: coverity
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>   Node: cit_version Value: 1
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>   Node: config
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>     Node: build
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>       Node: compiler
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: comp_name Value: g++
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: comp_name Value: g++-7
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: comp_name Value: x86_64-linux-gnu-g++-7
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: comp_dir Value: /usr/bin
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: comp_translator Value: g++cc
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: comp_lang Value: C/C++
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: comp_front_end Value: cov-emit
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: comp_desc Value: GNU C++ Compiler
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: comp_generic Value: gnu
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: comp_require Value: -std=gnu++11
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: id Value: g++cc-g++-7.5.0-4dfc23733e2470df29097c4a73acf564-0
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: version Value: 7.5.0
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: is_compiler Value: true
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: is_linker Value: true
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: target_platform Value: all
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>       Node: options
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: id Value: g++cc-g++-7.5.0-4dfc23733e2470df29097c4a73acf564-0
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: instrument_predicates
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: remove_regex Value: (^|\s)\-Werror(=\S*)?(\s|$)
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: if
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: conditions
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>               Node: or_cond
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>                 Node: cond
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>                   Node: contains_regex Value: (^|\s)[^-]
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>                 Node: cond
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>                   Node: contains_regex Value: (^|\s)\-l
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: then
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>               Node: insert
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>                 Node: insertion_string Value: -L[[:cov_lib_path:]] -Wl,-rpath=[[:cov_lib_deployment_path:]] [[:cov_lib_gcc:]] -I[[:cov_lib_header_path:]]
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>                 Node: precedes_regex Value: nothing
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: var_name Value: cov_instrument_config_version
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: var_value Value: 3
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_deployment_path
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_gcc
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime -Wl,--no-as-needed -pthread -lpthread -lrt -lc
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: platform_name Value: mingw
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x86
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: platform_name Value: mingw64
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: var_value Value: -lci-runtime-x64
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_header_path
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/sdk/runtime/ta-runtime
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: instrument_variable
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: var_name Value: cov_lib_path
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: cond_platform_value
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: platform_name Value: all
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: var_value Value: /home/ala/cov-analysis-linux64-2020.06/lib
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: template_config_option_id Value: g++cc-g++-.*
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/local/include
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include/x86_64-linux-gnu
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: sysinclude_dir Value: /usr/include
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: dryrun_switch Value: -xc
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: dryrun_switch Value: -E
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: dryrun_switch Value: -v
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: dump_macros_arg Value: -xc
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: dump_macros_arg Value: -dM
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: dump_macros_arg Value: -E
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -o.+
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -c
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: preprocess_remove_arg Value: -Werror
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: preprocess_remove_next_arg Value: -o
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: preprocess_switch Value: -E
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: preprocess_switch Value: -U__BLOCKS__
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: preprocess_switch Value: -xc
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: preprocess_compile_switch Value: -C
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: preprocess_output Value: -
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: dryrun_output Value: 2
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: pre_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++cc-config-0/coverity-compiler-compat.h
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: macro_pre_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++cc-config-0/coverity-macro-compat.h
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --fixed_point
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity___fpreg
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_decimal
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_float
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --add_type_modifier=__coverity_floatx
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefined_feature_test_macros
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_stdarg_builtin
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefined_cplusplus
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: -w
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefines
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --comp_ver
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: 7.5.0
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --size_t_type=m
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --ptrdiff_t_type=l
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --type_sizes=xl8i4s2e16d8f4P8
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --type_alignments=xl8i4s2e16d8f4P8
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --char_bit_size=8
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --restrict
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --gnu_carriage_return_line_terminator
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --wchar_t_type=i
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_multiline_string
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_trigraphs
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --ignore_calling_convention
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --c11
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --enable_80bit_float
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --enable_128bit_float
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --allow__bool
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --macro_stack_pragmas
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --inline_keyword
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_include_macro
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_include_next_macro
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --has_cpp_attribute_macro
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: prepend_arg Value: --no_predefines
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -###
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -E
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -fsyntax-only
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -M
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -MM
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -wrapper
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: --version
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: --help
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: --target-help
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpspecs
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpversion
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpmachine
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -print-search-dirs
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -print-libgcc-file-name
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multiarch
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-directory
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-lib
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -print-multi-os-directory
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -print-sysroot
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -print-sysroot-headers-suffix
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg Value: -dumpfullversion
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg_regex Value: --help=.*
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg_regex Value: -print-file-name=.*
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_arg_regex Value: -print-prog-name=.*
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_file Value: conftest\.cpp$
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: skip_file Value: cgo-cc-input-[0-9]+\.(c|cc|cpp|cxx)
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: opt_preinclude_file Value: /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++cc-config-0/../user_nodefs.h
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: pch_options
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: archetype Value: gcc
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: pre_trans
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: pre_prepend_arg Value: -coverity_cxx_suffixes=c;i
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: pre_prepend_arg Value: -coverity_cxx_header_suffixes=h
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: expand
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: replace_arg_regex
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>               Node: replace Value: @(.*)
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>               Node: with Value: --coverity_resp_file=$1
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: pre_trans
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: intern_trans Value: gnu_pre_translate
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: trans
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: includes_from_env_var Value: CPATH
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: includes_from_env_var_empty_is_cwd Value: true
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: trans
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>           Node: options
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: includes_from_env_var Value: C_INCLUDE_PATH
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>             Node: pre_prepend_arg Value: --c
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>         Node: begin_command_line_config
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|>   Node: md5 Value: ac6c9045a84a0406b81e9a779d969d0c
+2020-09-18T13:11:14.317805Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.319110Z|cov-build|10016|info|> Using LD_PRELOAD = /home/ala/cov-analysis-linux64-2020.06/bin/libcapture-linux64-${PLATFORM}.so
+[10019] EXECUTING: make
+[10020] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -S/home/ala/CLionProjects/untitled -B/home/ala/CLionProjects/untitled --check-build-system CMakeFiles/Makefile.cmake 0
+[10021] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_progress_start /home/ala/CLionProjects/untitled/CMakeFiles /home/ala/CLionProjects/untitled/CMakeFiles/progress.marks
+[10022] EXECUTING: make -s -f CMakeFiles/Makefile2 all
+[10023] EXECUTING: make -s -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/depend
+[10024] EXECUTING: /bin/sh -c "cd /home/ala/CLionProjects/untitled && /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_depends "Unix Makefiles" /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled/CMakeFiles/untitled.dir/DependInfo.cmake --color="
+[10025] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_depends "Unix Makefiles" /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled /home/ala/CLionProjects/untitled/CMakeFiles/untitled.dir/DependInfo.cmake --color=
+[10026] EXECUTING: make -s -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
+[10027] EXECUTING: /bin/sh -c "/home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/untitled.dir/main.cpp.o""
+[10028] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
+[10029] EXECUTING: /usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/untitled.dir/main.cpp.o -c /home/ala/CLionProjects/untitled/main.cpp
+[10030] CWD: /home/ala/CLionProjects/untitled
+[10030] COMPILING: /home/ala/cov-analysis-linux64-2020.06/bin/cov-translate /usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/untitled.dir/main.cpp.o -c /home/ala/CLionProjects/untitled/main.cpp
+Using cached template compiler configuration instance /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-g" "-std=gnu++11" "-o" "CMakeFiles/untitled.dir/main.cpp.o" "-c" "/home/ala/CLionProjects/untitled/main.cpp"
+[STATUS] Compiling main.cpp
+/home/ala/cov-analysis-linux64-2020.06/bin/cov-emit --emit_pch_dependencies --dir=/home/ala/CLionProjects/untitled/idir --ignore_path=/tmp/cov-ala/f56e5c1eeba83577682aeacc0bec8e02/cov-configure --ignore_path=/tmp/cov-ala/f56e5c1eeba83577682aeacc0bec8e02/cov-ala/7bd665bacf9107d2d9a4873536ffa914 --pre_preinclude /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity-macro-compat.h --pre_preinclude /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity-compiler-compat.h --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --add_type_modifier=__coverity_float --add_type_modifier=__coverity_floatx --no_predefined_feature_test_macros --no_stdarg_builtin --no_predefined_cplusplus -w --no_predefines --comp_ver 7.5.0 --char_bit_size=8 --gnu_carriage_return_line_terminator --wchar_t_keyword --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --macro_stack_pragmas --exceptions --arg_dependent_overload --inline_keyword --has_include_macro --has_include_next_macro --has_cpp_attribute_macro --no_predefines --c++ --no_builtin_emulation --allow_incompat_throw --new_array_args --type_traits_helpers --c++11 --gnu_version 70500 --char16_t_char32_t_types --no_trigraphs --sys_include /usr/include/c++/7 --sys_include /usr/include/x86_64-linux-gnu/c++/7 --sys_include /usr/include/c++/7/backward --sys_include /usr/lib/gcc/x86_64-linux-gnu/7/include --sys_include /usr/local/include --sys_include /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed --sys_include /usr/include/x86_64-linux-gnu --sys_include /usr/include -D__NO_INLINE__ --type_sizes=e16Pdlx8fiw4s2 --type_alignments=e16Pdlx8fiw4s2 --size_t_type=m --ptrdiff_t_type=l main.cpp 
+Already emitted primary source file '/home/ala/CLionProjects/untitled/main.cpp'
+[10032] EXECUTING: /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/ala/CLionProjects/untitled/main.cpp -quiet -dumpbase main.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/untitled.dir/main.cpp.o -g -std=gnu++11 -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccYVrNyW.s
+[10033] EXECUTING: as --64 -o CMakeFiles/untitled.dir/main.cpp.o /tmp/ccYVrNyW.s
+[10034] EXECUTING: /bin/sh -c "/home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=2 "Linking CXX executable untitled""
+[10035] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=2 "Linking CXX executable untitled"
+[10036] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=
+[10037] EXECUTING: /usr/bin/g++ -g CMakeFiles/untitled.dir/main.cpp.o -o untitled
+[10038] CWD: /home/ala/CLionProjects/untitled
+[10038] COMPILING: /home/ala/cov-analysis-linux64-2020.06/bin/cov-translate /usr/bin/g++ -g CMakeFiles/untitled.dir/main.cpp.o -o untitled
+Using cached template compiler configuration instance /home/ala/CLionProjects/untitled/idir/emit/ala-VirtualBox/config/2777ab2057b53e166d208217722c4ddf/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "-g" "CMakeFiles/untitled.dir/main.cpp.o" "-o" "untitled"
+[10039] EXECUTING: /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0hBwvc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o untitled /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/untitled.dir/main.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+[10040] EXECUTING: /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0hBwvc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o untitled /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/untitled.dir/main.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+[10041] EXECUTING: /bin/sh -c "/home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=1,2 "Built target untitled""
+[10042] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/ala/CLionProjects/untitled/CMakeFiles --progress-num=1,2 "Built target untitled"
+[10043] EXECUTING: /home/ala/Desktop/coverityInstaller/clion-2020.2.1/bin/cmake/linux/bin/cmake -E cmake_progress_start /home/ala/CLionProjects/untitled/CMakeFiles 0
+2020-09-18T13:11:14.615289Z|cov-build|10016|info|> Invoking cov-security-da with commands: /home/ala/cov-analysis-linux64-2020.06/bin/cov-security-da --dir /home/ala/CLionProjects/untitled/idir
+2020-09-18T13:11:14.629133Z|cov-build|10016|info|> Dynamic analyzer took 13 ms
+2020-09-18T13:11:14.629133Z|cov-build|10016|info|> Build time (cov-build overall): 00:00:00.332649
+2020-09-18T13:11:14.629133Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.629582Z|cov-build|10016|info|> Build time ( emits total): 00:00:00.063476
+2020-09-18T13:11:14.629582Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.629582Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.629609Z|cov-build|10016|info|> 
+2020-09-18T13:11:14.629609Z|cov-build|10016|info|> 2 C/C++ compilation units (66%) are ready for analysis
+2020-09-18T13:11:14.629609Z|cov-build|10016|info|> The cov-build utility completed successfully.

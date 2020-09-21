@@ -1,0 +1,25 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>PW.DECLARED_BUT_NOT_REFERENCED</checker>
+<type>unclassified_parse_warning</type>
+<file>/home/ala/CLionProjects/untitled/main.cpp</file>
+<function>unknown</function>
+<score>0</score>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>declared_but_not_referenced</tag>
+<description>{CovLStrv2{{t{{0} was declared but never referenced}{variable &quot;assignThis&quot;}}}}</description>
+<line>25</line>
+</event>
+<event>
+<tag>caretline</tag>
+<description>         ^</description>
+<line>25</line>
+</event>
+<mergekey>ebe220e3a0874dcea329b21800d43fb6</mergekey>
+<extra>    int* assignThis = someMethod();
+</extra>
+<subcategory>none</subcategory>
+</error>

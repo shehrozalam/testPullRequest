@@ -1,0 +1,48 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>USE_AFTER_FREE</checker>
+<type>use_after_free</type>
+<subtype>pointer</subtype>
+<file>/home/ala/CLionProjects/untitled/main.cpp</file>
+<function>_Z10someMethodv</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>freed_arg</tag>
+<description>{CovLStrv2{{t{{0} frees {1}.}{{code{operator delete}}}{{code{createOne}}}}}}</description>
+<line>5</line>
+</event>
+<event>
+<main>true</main>
+<tag>use_after_free</tag>
+<description>{CovLStrv2{{t{Using freed pointer {0}.}{{code{createOne}}}}}}</description>
+<line>7</line>
+</event>
+<extra>createOne</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>USE_AFTER_FREE</checker>
+<type>use_after_free</type>
+<subtype>deref_write_after_free</subtype>
+<file>/home/ala/CLionProjects/untitled/main.cpp</file>
+<function>main</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>freed_arg</tag>
+<description>{CovLStrv2{{t{{0} frees {1}.}{{code{operator delete}}}{{code{what}}}}}}</description>
+<line>19</line>
+</event>
+<event>
+<main>true</main>
+<tag>deref_after_free</tag>
+<description>{CovLStrv2{{t{Dereferencing freed pointer {0}.}{{code{what}}}}}}</description>
+<line>20</line>
+</event>
+<extra>what</extra>
+<subcategory>deref_write_after_free</subcategory>
+</error>

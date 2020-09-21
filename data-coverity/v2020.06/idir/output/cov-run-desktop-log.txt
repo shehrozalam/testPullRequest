@@ -1,0 +1,193 @@
+startup: Coverity Desktop Analysis version 2020.06 on Linux 5.4.0-47-generic x86_64
+startup: Internal version numbers: 6fbf2d48ad p-trail-push-1389
+startup: started at 2020-09-18 15:38:07
+startup: command line: cov-run-desktop --ssl --present-in-reference false --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --data-dir /home/ala/CLionProjects/untitled/data-coverity --tmpdir /tmp main.cpp
+settings: Per-user coverity configuration file: /home/ala/.coverity/coverity.conf
+settings: Per-branch code base coverity configuration file: /home/ala/CLionProjects/untitled/coverity.conf
+settings: {
+settings:   "type": "Coverity configuration",
+settings:   "format_version": 1,
+settings:   "format_minor_version": 7,
+settings:   "settings": {
+settings:     "add_compiler_configurations": [
+settings:     ],
+settings:     "compiler_config_file": "/home/ala/CLionProjects/untitled/data-coverity/v2020.06/config/coverity_config.xml",
+settings:     "compiler_configurations": [
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--javascript",
+settings:           "--if-supported-platform"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--php",
+settings:           "--if-supported-platform"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--python",
+settings:           "--if-supported-platform"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--ruby",
+settings:           "--if-supported-platform"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--gcc"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--java"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--msvc"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--cs"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--clang"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--swift"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--vb"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--go"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--scala-after-java"
+settings:         ]
+settings:       }
+settings:     ],
+settings:     "cov_run_desktop": {
+settings:       "allow_suffix_match": false,
+settings:       "build_cmd": [
+settings:         "make"
+settings:       ],
+settings:       "build_record_with_source": false,
+settings:       "clean_cmd": [
+settings:         "make",
+settings:         "clean"
+settings:       ],
+settings:       "ignore_uncapturable_inputs": false,
+settings:       "prefer_suffix_match": false,
+settings:       "reference_snapshot": "idir-date"
+settings:     },
+settings:     "data_dir": "/home/ala/CLionProjects/untitled/data-coverity",
+settings:     "intermediate_dir": "/home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir",
+settings:     "known_installations": [
+settings:       {
+settings:         "directory": "/home/ala/cov-analysis-linux64-2020.06",
+settings:         "kind": "cov-analysis",
+settings:         "platform": "linux64",
+settings:         "version": "2020.06"
+settings:       }
+settings:     ],
+settings:     "license_file_dir": "/home/ala/CLionProjects/untitled/data-coverity/v2020.06/lic",
+settings:     "scm": {
+settings:     },
+settings:     "server": {
+settings:       "auth_key_file": "/home/ala/.coverity/authkeys/ak-20.52.41.122-8443",
+settings:       "authenticate_ssl": false,
+settings:       "host": "20.52.41.122",
+settings:       "ldap_server": "",
+settings:       "port": 8443,
+settings:       "ssl": true,
+settings:       "username": "ala"
+settings:     },
+settings:     "stream": "shehrozTest",
+settings:     "tmpdir": "/tmp"
+settings:   }
+settings: }
+ref-snapshot: running: /home/ala/cov-analysis-linux64-2020.06/bin/cov-manage-history --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --tmpdir /tmp --no-banner snapshot-id-for-date --auth-key-file /home/ala/.coverity/authkeys/ak-20.52.41.122-8443 --stream shehrozTest --ssl --host 20.52.41.122 --port 8443 --max-retries=0 --response-timeout=36000 -of /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/output/snapshot-id.json --date 2020-09-18T15:36:42+02:00
+ref-snapshot: [STATUS] Retrieving snapshot ID with summaries for date 2020-09-18T15:36:42+02:00...
+ref-snapshot: /home/ala/cov-analysis-linux64-2020.06/bin/cov-manage-history took 0.2 seconds.
+tu-selection: Selected TU 1 with primary source file /home/ala/CLionProjects/untitled/main.cpp
+emit: running: /home/ala/cov-analysis-linux64-2020.06/bin/cov-manage-emit --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --tmpdir /tmp --no-banner --tu 1 recompile --desktop --name desktopBuild99ac06dcbcc4918ddf5222cd22a490060 -j auto
+emit: Replaying 1 compilations with 1 processes (auto-detected).
+emit: CWD=/home/ala/CLionProjects/untitled
+emit: /home/ala/cov-analysis-linux64-2020.06/bin/cov-emit --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --emit_pch_dependencies --ignore_path=/tmp/cov-ala/68123764746d04c124b6d629e80fda98/cov-configure --ignore_path=/tmp/cov-ala/68123764746d04c124b6d629e80fda98/cov-ala/04288575fa1e853fb99da1fbae039d56 --pre_preinclude /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity-macro-compat.h --pre_preinclude /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/ala-VirtualBox/config/4dfc23733e2470df29097c4a73acf564/g++-config-0/coverity-compiler-compat.h --add_type_modifier=__coverity___fpreg --add_type_modifier=__coverity_decimal --add_type_modifier=__coverity_float --add_type_modifier=__coverity_floatx --no_predefined_feature_test_macros --no_stdarg_builtin --no_predefined_cplusplus -w --no_predefines --comp_ver 7.5.0 --char_bit_size=8 --gnu_carriage_return_line_terminator --wchar_t_keyword --no_multiline_string --no_trigraphs --ignore_calling_convention --enable_80bit_float --enable_128bit_float --macro_stack_pragmas --exceptions --arg_dependent_overload --inline_keyword --has_include_macro --has_include_next_macro --has_cpp_attribute_macro --no_predefines --c++ --no_builtin_emulation --allow_incompat_throw --new_array_args --type_traits_helpers --c++11 --gnu_version 70500 --char16_t_char32_t_types --no_trigraphs --sys_include /usr/include/c++/7 --sys_include /usr/include/x86_64-linux-gnu/c++/7 --sys_include /usr/include/c++/7/backward --sys_include /usr/lib/gcc/x86_64-linux-gnu/7/include --sys_include /usr/local/include --sys_include /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed --sys_include /usr/include/x86_64-linux-gnu --sys_include /usr/include -D__NO_INLINE__ --type_sizes=e16Pdlx8fiw4s2 --type_alignments=e16Pdlx8fiw4s2 --size_t_type=m --ptrdiff_t_type=l main.cpp 
+emit: Already emitted primary source file '/home/ala/CLionProjects/untitled/main.cpp'
+emit: Compilation successful
+emit: Compiled 1 files successfully.
+emit: /home/ala/cov-analysis-linux64-2020.06/bin/cov-manage-emit took 0.0 seconds.
+emit: running: /home/ala/cov-analysis-linux64-2020.06/bin/cov-manage-emit --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --tmpdir /tmp --no-banner --tu 1 -tp build_name("^desktopBuild99ac06dcbcc4918ddf5222cd22a490060$") print-tuid -of /tmp/cov-ala/99ac06dcbcc4918ddf5222cd22a49006/tuids
+emit: /home/ala/cov-analysis-linux64-2020.06/bin/cov-manage-emit took 0.0 seconds.
+emit: TU IDs after recompile: 1
+summaries: running: /home/ala/cov-analysis-linux64-2020.06/bin/cov-manage-history --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --tmpdir /tmp --no-banner download-analysis-summaries --auth-key-file /home/ala/.coverity/authkeys/ak-20.52.41.122-8443 --stream shehrozTest --ssl --host 20.52.41.122 --port 8443 --max-retries=0 --response-timeout=36000 --reference-snapshot-id 10006 --tu 1 --desktop-hashes-file /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/output/desktop-hashes --progress-file-v1 /tmp/cov-ala/99ac06dcbcc4918ddf5222cd22a49006/summaries-download-progress
+summaries: /home/ala/cov-analysis-linux64-2020.06/bin/cov-manage-history took 0.0 seconds.
+reference-tu-selection: Total reference TUs: 0
+analysis: running: /home/ala/cov-analysis-linux64-2020.06/bin/cov-analyze --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --tmpdir /tmp --no-banner --analysis-settings /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/emit/desktop-cache/analysis-settings.json --security-file /home/ala/cov-analysis-linux64-2020.06/bin/license.dat --persistent-models true --no-whole-program-checkers --fb-exclude desktop --export-summaries false --noxrefs --use-desktop-hashes /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/output/desktop-hashes --strip-path /home/ala/CLionProjects/untitled --ticker-mode=none --tu 1 -en PARSE_ERROR --force-report-rws
+analysis: Using 1 worker as limited by CPU(s)
+analysis: [STATUS] Computing links for 1 translation unit
+analysis: [STATUS] Computing virtual overrides
+analysis: [STATUS] Resolving dataflow directives
+analysis: [STATUS] Computing callgraph
+analysis: [STATUS] Topologically sorting 67 functions
+analysis: [STATUS] Computing node costs
+analysis: [STATUS] Running analysis
+analysis: Analysis summary report:
+analysis: ------------------------
+analysis: Files analyzed                 : 9 Total
+analysis:     C++                        : 9
+analysis: Total LoC input to cov-analyze : 28901
+analysis: Functions analyzed             : 14
+analysis: Classes/structs analyzed       : 11
+analysis: Paths analyzed                 : 21
+analysis: Time taken by analysis         : 00:00:01
+analysis: Defect occurrences found       : 8 Total
+analysis:                                  1 PW.DECLARED_BUT_NOT_REFERENCED
+analysis:                                  5 UNINIT
+analysis:                                  2 USE_AFTER_FREE
+analysis: 
+analysis: /home/ala/cov-analysis-linux64-2020.06/bin/cov-analyze took 0.9 seconds.
+analysis: Enabled checkers:
+analysis:   ALLOC_FREE_MISMATCH, ANDROID_CAPABILITY_LEAK, ANDROID_DEBUG_MODE, ARRAY_VS_SINGLETON, ASSERT_SIDE_EFFECT, ATOMICITY, BAD_ALLOC_ARITHMETIC, BAD_ALLOC_STRLEN, BAD_CERT_VERIFICATION, BAD_CHECK_OF_WAIT_COND, BAD_COMPARE, BAD_EQ, BAD_EQ_TYPES, BAD_FREE, BAD_LOCK_OBJECT, BAD_OVERRIDE, BAD_SHIFT, BAD_SIZEOF, BUFFER_SIZE, CALL_SUPER, CHAR_IO, CHECKED_RETURN, CHROOT, COM.BAD_FREE, COM.BSTR.CONV, CONFIG.ANDROID_BACKUPS_ALLOWED, CONFIG.ANDROID_OUTDATED_TARGETSDKVERSION, CONFIG.ANDROID_UNSAFE_MINSDKVERSION, CONFIG.ATS_INSECURE, CONSTANT_EXPRESSION_RESULT, COPY_PASTE_ERROR, CTOR_DTOR_LEAK, CUDA.COLLECTIVE_WARP_SHUFFLE_WIDTH, CUDA.CUDEVICE_HANDLES, CUDA.DEVICE_DEPENDENT, CUDA.DEVICE_DEPENDENT_CALLBACKS, CUDA.DIVERGENCE_AT_COLLECTIVE_OPERATION, CUDA.ERROR_INTERFACE, CUDA.ERROR_KERNEL_LAUNCH, CUDA.FORK, CUDA.INACTIVE_THREAD_AT_COLLECTIVE_WARP, CUDA.INITIATION_OBJECT_DEVICE_THREAD_BLOCK, CUDA.SYNCHRONIZE_TERMINATION, CUSTOM_KEYBOARD_DATA_LEAK, DC.DANGEROUS, DC.DEADLOCK, DC.PREDICTABLE_KEY_PASSWORD, DC.STREAM_BUFFER, DC.WEAK_CRYPTO, DEADCODE, DELETE_ARRAY, DELETE_VOID, DETEKT.*, DIVIDE_BY_ZERO, EVALUATION_ORDER, EXPLICIT_THIS_EXPECTED, EXPOSED_PREFERENCES, FB.*, FORMAT_STRING_INJECTION, FORWARD_NULL, GUARDED_BY_VIOLATION, HARDCODED_CREDENTIALS, HEADER_INJECTION, HIBERNATE_BAD_HASHCODE, IDENTICAL_BRANCHES, IMPLICIT_INTENT, INCOMPATIBLE_CAST, INFINITE_LOOP, INSECURE_COMMUNICATION, INSECURE_MULTIPEER_CONNECTION, INSECURE_RANDOM, INSUFFICIENT_LOGGING, INVALIDATE_ITERATOR, LOCK, LOCK_EVASION, LOCK_INVERSION, MISMATCHED_ITERATOR, MISSING_BREAK, MISSING_COMMA, MISSING_LOCK, MISSING_MOVE_ASSIGNMENT, MISSING_PERMISSION_ON_EXPORTED_COMPONENT, MISSING_RESTORE, MISSING_RETURN, MISSING_THROW, MOBILE_ID_MISUSE, NEGATIVE_RETURNS, NESTING_INDENT_MISMATCH, NON_STATIC_GUARDING_STATIC, NOSQL_QUERY_INJECTION, NO_EFFECT, NULL_RETURNS, OPEN_ARGS, OPEN_REDIRECT, ORDER_REVERSAL, ORM_LOAD_NULL_CHECK, ORM_UNNECESSARY_GET, OS_CMD_INJECTION, OVERFLOW_BEFORE_WIDEN, OVERLAPPING_COPY, OVERRUN, PARSE_ERROR, PASS_BY_VALUE, PATH_MANIPULATION, PREDICTABLE_RANDOM_SEED, PRINTF_ARGS, PROPERTY_MIXUP, PW.*, READLINK, REGEX_CONFUSION, REGEX_INJECTION, RESOURCE_LEAK, RETURN_LOCAL, REVERSE_INULL, REVERSE_NEGATIVE, RISKY_CRYPTO, SCRIPT_CODE_INJECTION, SECURE_TEMP, SENSITIVE_DATA_LEAK, SERVLET_ATOMICITY, SIGN_EXTENSION, SINGLETON_RACE, SIZEOF_MISMATCH, SLEEP, SQLI, STACK_USE, STRAY_SEMICOLON, STREAM_FORMAT_STATE, STRING_NULL, STRING_OVERFLOW, STRING_SIZE, SWAPPED_ARGUMENTS, TAINTED_ENVIRONMENT_WITH_EXECUTION, TAINTED_SCALAR, TAINTED_STRING, TEMPLATE_INJECTION, TOCTOU, UNCAUGHT_EXCEPT, UNENCRYPTED_SENSITIVE_DATA, UNEXPECTED_CONTROL_FLOW, UNINIT, UNINIT_CTOR, UNINTENDED_GLOBAL, UNINTENDED_INTEGER_DIVISION, UNREACHABLE, UNRESTRICTED_ACCESS_TO_FILE, UNSAFE_DESERIALIZATION, UNSAFE_XML_PARSE_CONFIG, UNUSED_VALUE, URL_MANIPULATION, USELESS_CALL, USER_POINTER, USE_AFTER_FREE, VARARGS, VIRTUAL_DTOR, VOLATILE_ATOMICITY, WEAK_BIOMETRIC_AUTH, WEAK_PASSWORD_HASH, WRAPPER_ESCAPE, WRONG_METHOD, XML_EXTERNAL_ENTITY, XPATH_INJECTION, XSS
+format: running: /home/ala/cov-analysis-linux64-2020.06/bin/cov-format-errors --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --tmpdir /tmp --no-banner --strip-path /home/ala/CLionProjects/untitled --json-output-v7 /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/output/errors.json --security-file /home/ala/cov-analysis-linux64-2020.06/bin/license.dat --lang en
+format: [WARNING] For compatibility with previous releases, cov-format-errors
+format: will accept --strip-path options that are identical to the one passed to
+format: cov-analyze. It is recommended to only pass the --strip-path option to
+format: cov-analyze.
+format: 
+format: /home/ala/cov-analysis-linux64-2020.06/bin/cov-format-errors took 0.1 seconds.
+triage: running: /home/ala/cov-analysis-linux64-2020.06/bin/cov-commit-defects --dir /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir --tmpdir /tmp --no-banner --ticker-mode=none --preview-report-v2 /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/output/preview-report.json --cid-assignment-timeout 30 --comparison-snapshot-id 10006 --security-file /home/ala/cov-analysis-linux64-2020.06/bin/license.dat --auth-key-file /home/ala/.coverity/authkeys/ak-20.52.41.122-8443 --stream shehrozTest --ssl --host 20.52.41.122 --port 8443
+triage: Getting data URL from https://20.52.41.122:8443/get-data-url.cgi
+triage: Saving server certificate as /home/ala/.coverity/certs/tft/host-20.52.41.122,port-9090.pem
+triage: Connecting to server 20.52.41.122:9090
+triage: Connection is encrypted.
+triage: [STATUS] 2020-09-18 13:38:08 UTC - Committing 3 defect files...
+triage: Elapsed time: 00:00:06
+triage: /home/ala/cov-analysis-linux64-2020.06/bin/cov-commit-defects took 5.8 seconds.
+triage: WARNING: merge key b3c9c0d09a4921964512fa14fc64e4d3 not found in preview report
+triage: WARNING: merge key 8d8f8340216c28e7234670179fb7b426 not found in preview report
+triage: WARNING: merge key 1a950e2caa0d91d0294594fed64b7b65 not found in preview report
+triage: WARNING: merge key 12bdaeb2f4c5fb356a84cfd2304f534c not found in preview report
+triage: WARNING: merge key 4f13cac5518508e31aa6dca57d0b8d47 not found in preview report
+suppressed: UNINIT at /home/ala/CLionProjects/untitled/main.cpp:5 suppressed because: present in reference snapshot
+suppressed: USE_AFTER_FREE at /home/ala/CLionProjects/untitled/main.cpp:7 suppressed because: present in reference snapshot
+suppressed: PW.DECLARED_BUT_NOT_REFERENCED at /home/ala/CLionProjects/untitled/main.cpp:25 suppressed because: present in reference snapshot
+shutdown: cov-run-desktop terminating with code 0 at 2020-09-18 15:38:14

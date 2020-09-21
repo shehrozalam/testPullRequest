@@ -1,0 +1,30 @@
+1600436288.335: DM started: dm_pid=11752
+1600436288.335: DM command line: /home/ala/cov-analysis-linux64-2020.06/bin/cov-internal-dm --AM-port 38911 --log-file /home/ala/CLionProjects/untitled/data-coverity/v2020.06/idir/output/distributor.log -j 1 --AW-timeout 36000 /home/ala/cov-analysis-linux64-2020.06/bin/cov-analyze --worker --message-size-limit 104857600
+1600436288.335: Connecting to AM at 127.0.0.1:38911
+1600436288.335: Connected to AM: (local) 127.0.0.1:53072 - 127.0.0.1:38911 (remote)
+1600436288.335: Listening for DWs at 127.0.0.1:37635
+1600436288.335: Starting DW 1 with command line: /home/ala/cov-analysis-linux64-2020.06/bin/cov-internal-dw --DM-port 37635 --DW-id 1
+1600436288.335: DW 1 started: dw_pid=11754
+1600436288.343: DW 1 log: 1600436288.343: Connecting to DM on 127.0.0.1:37635
+1600436288.343: Received a connection from a DW: 127.0.0.1:39156
+1600436288.343: DW 1 log: 1600436288.343: Connected to the DM: (local) 127.0.0.1:39156 - 127.0.0.1:37635 (remote)
+1600436288.343: DW 1 log: 1600436288.343: Sending DWDM_INIT: dw_id=1, benchmark=0
+1600436288.343: Received DWDM_INIT: dw_id=1, benchmark=0
+1600436288.343: Stopping to listen for new DWs
+1600436288.343: Sending DMDW_INIT to DW 1: aw_command_line=["/home/ala/cov-analysis-linux64-2020.06/bin/cov-analyze","--worker","--message-size-limit","104857600"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1600436288.343: DW 1 log: 1600436288.343: Received DMDW_INIT: aw_command_line=["/home/ala/cov-analysis-linux64-2020.06/bin/cov-analyze","--worker","--message-size-limit","104857600"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1600436288.343: DW 1 log: 1600436288.343: Started listening for AW at 127.0.0.1:36733
+1600436288.343: DW 1 log: 1600436288.343: Starting AW with command line (COVERITY_DW_PORT=36733): /home/ala/cov-analysis-linux64-2020.06/bin/cov-analyze --worker --message-size-limit 104857600
+1600436288.343: DW 1 log: 1600436288.343: AW started: aw_pid=11756
+1600436288.357: DW 1 log: 1600436288.357: DW 1 received connection from AW: (local) 127.0.0.1:36733 - 127.0.0.1:45210 (remote)
+1600436288.363: AM closed the connection, DM shutting down
+1600436288.363: Disconnecting DW 1
+1600436288.365: DW 1 log: 1600436288.363: DW 1: the DM closed the connection, DW shutting down
+1600436288.365: DW 1 log: 1600436288.363: DW 1 summary: aw_starts=1, wurs_sent=0, total_awms=0, total_dwms=0
+1600436288.365: DW 1 log: 1600436288.363: Disconnecting AW
+1600436288.365: DW 1 log: 1600436288.365: AW exited with code 0
+1600436288.365: DW 1 log: AW peak mem bytes: 87961600
+1600436288.365: DW 1 exited with code 0
+1600436288.365: dm-summary: elapsed_time_ms=30, am_to_dm_wus=0, dm_to_am_wurs=0
+1600436288.365: dw-summary: dw_id=1, state=inactive, wus_outstanding=0, wus_sent=0, wurs_received=0, active_ms=0, idle_ms=0
+1600436288.365: DM exiting with code 0
